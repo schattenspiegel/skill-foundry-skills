@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "66f050b171324c13024a6977c158e11c93fc3d562b51f30f859c2cc8c43d3d5a",
+      "size": 6340
+    },
+    {
+      "path": "references/decision-guide.md",
+      "sha256": "1e7e4074f5ae87083fe0714cf43c5a39f914dd7339a133ab1cd5f4fd5bf1616b",
+      "size": 1353
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "108fbd2c2b59dbb4c0614474c3711d78233a86e5e4b5aca77e57533142be6eb7",
+      "size": 1236
+    },
+    {
+      "path": "references/recipes-solutions.md",
+      "sha256": "a18a32d46c7534c15b6c3eef006350ab7be977e9226487b6fc2c544ef5f6e389",
+      "size": 7329
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "875ac7f37526ce2d26bd1f06cfeb4c417b46a31ac7e27a82b01c94cb8dac836d",
+      "size": 1004
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "scipy-python",
+  "source_skill_version": "0.1.0"
+}

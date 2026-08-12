@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "069721b4431c1dd364bb6c6717673071aca3341ea435306c5fd8cf6e080eebfd",
+      "size": 6292
+    },
+    {
+      "path": "references/decision-guide.md",
+      "sha256": "c4ae526f310607e0696107789be614d4eabba32ebdcf924aaf5889f4a50611f4",
+      "size": 1403
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "ae6e6a566ab8f46c4b97db0ee9e5231219b10887dd7ef7680ef2f7ac31ae5a21",
+      "size": 1095
+    },
+    {
+      "path": "references/recipes-solutions.md",
+      "sha256": "8c5c5b246b964bcd57882e71ee5bfa6dc0da07879d18cdc42ab38198d330e7ec",
+      "size": 8393
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "b581eb405d7cdd70fddc2ecb2cfb7122c21a47ae57075fce64f422b8dd73851c",
+      "size": 1033
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "datetime-zoneinfo-python",
+  "source_skill_version": "0.1.0"
+}

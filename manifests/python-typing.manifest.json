@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "c7cc8183a602e9f78be0402964b575085900b91b040317e1b92ef9936b09604c",
+      "size": 6416
+    },
+    {
+      "path": "references/decision-guide.md",
+      "sha256": "205936dd28df326007026c3134dbbeff1448460607258772d9ad3726dab0e002",
+      "size": 1426
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "49177c52b37d6e251aa42fe1c4e547fd76a316724d04d6c27f2476ec4c93b0e1",
+      "size": 1141
+    },
+    {
+      "path": "references/recipes-solutions.md",
+      "sha256": "9c3f6fd8285f213609928e3eb617ac5b09ddec24dbd60e72924a987375500357",
+      "size": 6720
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "9043dd30565f9d55dfb9b0a644c35206aee9d59da7d297fc0536c9e3d528d095",
+      "size": 1036
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "python-typing",
+  "source_skill_version": "0.1.0"
+}

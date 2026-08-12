@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "715821d1e5f37fc58c8c7e6b4af85e1bbacce4aac3a931b95050923c822fc919",
+      "size": 6509
+    },
+    {
+      "path": "references/decision-guide.md",
+      "sha256": "0b539a764082c6ae0a61ae71618a930b0a4721499834c2fdb01605e1fc6f613f",
+      "size": 1499
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "269d3869480a9b1c24997dabc2b12239f283d7f07fb5401c534fffa35cfccc69",
+      "size": 1146
+    },
+    {
+      "path": "references/recipes-solutions.md",
+      "sha256": "2a187561a9ccd1a157a7cb2157c4452bf1458007221b422ce0657599dd474104",
+      "size": 8072
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "a0d3b0ee6ea1cdee44e01550715f83f3869f35168fa0ec5f2d57de27204056f5",
+      "size": 1010
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "asyncio-python",
+  "source_skill_version": "0.1.0"
+}

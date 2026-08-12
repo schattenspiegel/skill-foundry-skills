@@ -30,6 +30,17 @@ vendoring code, documentation, media, models, data, or binary dependencies.
 | Pydantic Settings | [pydantic/pydantic-settings](https://github.com/pydantic/pydantic-settings) | [MIT](https://github.com/pydantic/pydantic-settings/blob/main/LICENSE) |
 | Pandera | [unionai-oss/pandera](https://github.com/unionai-oss/pandera) | [MIT](https://github.com/unionai-oss/pandera/blob/main/LICENSE.txt) |
 | SQLGlot | [tobymao/sqlglot](https://github.com/tobymao/sqlglot) | [MIT](https://github.com/tobymao/sqlglot/blob/main/LICENSE) |
+| Python standard library and typing | [python/cpython](https://github.com/python/cpython) | [Python Software Foundation License Version 2, with separately noted incorporated components](https://github.com/python/cpython/blob/main/LICENSE) |
+| pytest | [pytest-dev/pytest](https://github.com/pytest-dev/pytest) | [MIT](https://github.com/pytest-dev/pytest/blob/main/LICENSE) |
+| Hypothesis | [HypothesisWorks/hypothesis](https://github.com/HypothesisWorks/hypothesis) | [MPL-2.0, with separately noted incorporated components](https://github.com/HypothesisWorks/hypothesis/blob/master/LICENSE.txt) |
+| HTTPX | [encode/httpx](https://github.com/encode/httpx) | [BSD-3-Clause](https://github.com/encode/httpx/blob/master/LICENSE.md) |
+| pandas | [pandas-dev/pandas](https://github.com/pandas-dev/pandas) | [BSD-3-Clause](https://github.com/pandas-dev/pandas/blob/main/LICENSE) |
+| scikit-learn | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | [BSD-3-Clause](https://github.com/scikit-learn/scikit-learn/blob/main/COPYING) |
+| SciPy | [scipy/scipy](https://github.com/scipy/scipy) | [BSD-3-Clause, with separately noted bundled components](https://github.com/scipy/scipy/blob/main/LICENSE.txt) |
+| Xarray | [pydata/xarray](https://github.com/pydata/xarray) | [Apache-2.0](https://github.com/pydata/xarray/blob/main/LICENSE) |
+| JAX | [jax-ml/jax](https://github.com/jax-ml/jax) | [Apache-2.0](https://github.com/jax-ml/jax/blob/main/LICENSE) |
+| statsmodels | [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels) | [BSD-3-Clause](https://github.com/statsmodels/statsmodels/blob/main/LICENSE.txt) |
+| FastAPI | [fastapi/fastapi](https://github.com/fastapi/fastapi) | [MIT](https://github.com/fastapi/fastapi/blob/master/LICENSE) |
 | NetworkX | [networkx/networkx](https://github.com/networkx/networkx) | [BSD-3-Clause](https://github.com/networkx/networkx/blob/main/LICENSE.txt) |
 | Structlog | [hynek/structlog](https://github.com/hynek/structlog) | [MIT OR Apache-2.0](https://github.com/hynek/structlog/blob/main/pyproject.toml) |
 | Typer | [fastapi/typer](https://github.com/fastapi/typer) | [MIT](https://github.com/fastapi/typer/blob/master/LICENSE) |

@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "e6e9fac368dc6b02e3827a84b80e77529250efce69f96a8f381249e0aafbbebc",
+      "size": 6418
+    },
+    {
+      "path": "references/decision-guide.md",
+      "sha256": "b5c2e4c93b61e926742856f507e86ce6f10f2562e3e53a514cbb220342eaf20b",
+      "size": 1399
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "5810abb55c71fd285123fcc4427d8705826a73ae1b25100f3639f2b8256ada23",
+      "size": 1208
+    },
+    {
+      "path": "references/recipes-solutions.md",
+      "sha256": "4f2205c6c94af9f535962bb99e29b4eb0a94dd543ee27a63c9a6473b45b3ba05",
+      "size": 7464
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "2f8b0e9b6c98ebceb49783dd872acee2f3337fe9fdcf9820a75bfe41e5c0cd51",
+      "size": 1032
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "xarray-python",
+  "source_skill_version": "0.1.0"
+}

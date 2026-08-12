@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "f6711c6fc743d9c9a42754ded233e32975eaeefa535650d8e35cc480bda4eaf3",
+      "size": 6652
+    },
+    {
+      "path": "references/decision-guide.md",
+      "sha256": "a02d03e02c8ac391457af285b9837c8995a0bc232ab067017a182df0744e4d69",
+      "size": 1542
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "dcf3041b424c092755152073a022bf53268bfe96254aed21f09f458b84d40133",
+      "size": 1197
+    },
+    {
+      "path": "references/recipes-solutions.md",
+      "sha256": "feda2bbca754dce4617a0acaa3d390b0c20469005dcfad5cb01558e787209347",
+      "size": 6955
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "c27a9fb27b076f5e3533535d05f6b4887bf301a8a28e002d4a5b062e8fe7cceb",
+      "size": 1088
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "pytest-hypothesis",
+  "source_skill_version": "0.1.0"
+}

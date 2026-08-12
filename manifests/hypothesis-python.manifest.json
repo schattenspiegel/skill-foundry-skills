@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "859d1f817046f73d7ed6a1e721b93b01c172a475c3d61e0a46fa1cb364f67030",
+      "size": 6307
+    },
+    {
+      "path": "references/decision-guide.md",
+      "sha256": "08afeb75eb692a257d16dd8afa2adc6e52efe431be7f68f5e3970d4f8ec1f7e9",
+      "size": 1380
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "f10d030dd3e11e133a5705245c8a403f2ddd6b3b4f91ed4f9514c44b4f6f6240",
+      "size": 1159
+    },
+    {
+      "path": "references/recipes-solutions.md",
+      "sha256": "3ccfe505079757eb9ec48fef42648202010cff88762ba614b9644091eb9d09a2",
+      "size": 6993
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "1913c3860aba4c9efcb6459a7ecb234fcc283c972c1ee4c584e9f63ba5f9bb8b",
+      "size": 1047
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "hypothesis-python",
+  "source_skill_version": "0.1.0"
+}

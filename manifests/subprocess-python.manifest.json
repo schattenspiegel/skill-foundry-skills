@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "5c858b7451442d1f2dc0373f1aa879e5f07428a8f60644ed1397e3e291a428a1",
+      "size": 6233
+    },
+    {
+      "path": "references/decision-guide.md",
+      "sha256": "17b18feb9cf3f839812a41cab9da79dfdfea9a1820d244c1ee1bd4b01435682d",
+      "size": 1380
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "81dfb0f7a20a9a5d64cddcd6bab3fcad63ec268ba4830dbb0df36177064bb5f3",
+      "size": 1092
+    },
+    {
+      "path": "references/recipes-solutions.md",
+      "sha256": "36f3d3efec62838f14cb7c44d11edc243cfe6f970eaf0db5f271d373ac380022",
+      "size": 6816
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "bf5420289338d0f8e33c68f6dd05a5f8772af0e59974d645a9efb84da9e64b9a",
+      "size": 1009
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "subprocess-python",
+  "source_skill_version": "0.1.0"
+}

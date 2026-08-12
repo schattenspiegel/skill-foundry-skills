@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "60e77451e36368e8eb96e154a7e1121912841292cd5e6fa67d26e42f2ceb7394",
+      "size": 6335
+    },
+    {
+      "path": "references/decision-guide.md",
+      "sha256": "cedc2866d6ab6977f91a152229c49c7fd74d91278926608169e24ac15c9e68c7",
+      "size": 1395
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "86fc13e36374728e027b1168a072c38fe34b0a5caf62bd80c10b2ee223c692b7",
+      "size": 1155
+    },
+    {
+      "path": "references/recipes-solutions.md",
+      "sha256": "451977bb31364b91cb9de4b29abb46a81b751567b92ec4d11f20b047ede980b6",
+      "size": 7322
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "8541ef476064f2c55e9b91bea51c89725ecaac8a70354759404f110be5f1f03a",
+      "size": 1023
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "pandas-python",
+  "source_skill_version": "0.1.0"
+}

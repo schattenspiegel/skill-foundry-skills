@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "8176aec67142e798cbef2b47fe13f683b967f399853b2ab046a3882ccd1f520b",
+      "size": 6495
+    },
+    {
+      "path": "references/decision-guide.md",
+      "sha256": "d8990ad209f7c5d2c26eb6b5ce1841160a2e40d2a5003dc668fda20fdae46b07",
+      "size": 1453
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "e938fa6a11e4f918606465283ef6674fe7738a55b6492e23632147d04d862284",
+      "size": 1201
+    },
+    {
+      "path": "references/recipes-solutions.md",
+      "sha256": "ab66c0ed4c2178a5958acfb2556b9e5a13b3cb96c1e96f6677b71ca224a437e6",
+      "size": 7035
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "9f47be6d1524e8e32833d4952baf3ac303c0b8ce318f12f9fb7d3576bce08096",
+      "size": 1037
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "fastapi-python",
+  "source_skill_version": "0.1.0"
+}

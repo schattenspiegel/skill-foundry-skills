@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "fc7fb8f0361bf2a0aab18a6764fe8481f77217187e957d58771b3f486329a7af",
+      "size": 6405
+    },
+    {
+      "path": "references/decision-guide.md",
+      "sha256": "5b14ffdff978a2b385efba11f635e51118e4df2d2f5298bcd54b1e54336d6def",
+      "size": 1417
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "0e7abbe48a48bed6efd964857ab6a1d395ee12b22f3e16b32c2937f83840a4fd",
+      "size": 1178
+    },
+    {
+      "path": "references/recipes-solutions.md",
+      "sha256": "c9b6b12359145a0432a39a349816714a183d8f3e5f56d5c589f644a32bcf19e8",
+      "size": 6961
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "eee084f8d19802008b49b9d7bb65f6a66517c309b990ff960e486a66121e31a3",
+      "size": 1032
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "jax-python",
+  "source_skill_version": "0.1.0"
+}

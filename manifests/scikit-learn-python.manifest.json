@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "06e4486b9dd7bcc9a00fb268ff2d4c7244f6c9b2b18f27508cabadaa1aee533c",
+      "size": 6412
+    },
+    {
+      "path": "references/decision-guide.md",
+      "sha256": "8e4f5637ed64de42f91de704115b034f9ea320e49a8706dac78a5dcbc214e5ab",
+      "size": 1448
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "236f5986d33284d181bea868f6b20c25403b2065492dda61d39f6cbcae7cdbd8",
+      "size": 1170
+    },
+    {
+      "path": "references/recipes-solutions.md",
+      "sha256": "a1b9b807bc1c83ae174ee59378678fc8b49f84b4bd010f89b9538460a9a8da2e",
+      "size": 7160
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "2ee038d9e847b6eef647f4b4fa7c9bea72f0cce51e7524980f7531e3c7d9c5f3",
+      "size": 1044
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "scikit-learn-python",
+  "source_skill_version": "0.1.0"
+}

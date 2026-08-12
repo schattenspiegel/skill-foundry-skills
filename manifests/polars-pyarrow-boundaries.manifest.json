@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "e0d37fa646cbbe3647d5b9a670a67c98eb0a8b36c2931b4d989dcb9d38be1525",
+      "size": 6650
+    },
+    {
+      "path": "references/decision-guide.md",
+      "sha256": "ac31ffb51414406c493ad6e998e6b692f57e854ebf680f87fd2db90e8a366b38",
+      "size": 1497
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "d82c5a14a1559f3f889c7a75e5ffb911c0178ae6e6b77cc65de77f0ba7f5f17b",
+      "size": 1244
+    },
+    {
+      "path": "references/recipes-solutions.md",
+      "sha256": "d26cd1e2ad5e630839f301baa4e5315e6d6ba9f2cec1d8e9edbeed45b778e3e9",
+      "size": 8955
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "1eb3ce8314645915f4cb607c2ab1b1e3b2b1c5e63b4deba7363ec883fd50ff8a",
+      "size": 1079
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "polars-pyarrow-boundaries",
+  "source_skill_version": "0.1.0"
+}

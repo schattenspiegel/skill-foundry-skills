@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "1d727bc7f1b326d031ecf61aef30cc939fc11086f05dd16910ff8782d405d710",
+      "size": 6464
+    },
+    {
+      "path": "references/decision-guide.md",
+      "sha256": "1e11ec4b1563b346e6359e1d6d100baf72a7e2bfe008dec175bc94df3afbc220",
+      "size": 1398
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "32d691aff788a3dc4e8fffe0f1209c0d15848fe5b374459d3f841baeec570600",
+      "size": 1266
+    },
+    {
+      "path": "references/recipes-solutions.md",
+      "sha256": "ab01301c35723d03274efe1a26d8a01bc8b0022216aedadfd39cd63938df89eb",
+      "size": 7700
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "82a125b07126ab5c7bf9deafb7e802dfe50b839724f302455d823aa4dca90af6",
+      "size": 1050
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "statsmodels-python",
+  "source_skill_version": "0.1.0"
+}

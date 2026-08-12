@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "04438cf52e59914b38038aa40b879ede9f10b58890df7dbe4bdeee4b8ce8967b",
+      "size": 6394
+    },
+    {
+      "path": "references/decision-guide.md",
+      "sha256": "8eb68c4926eab262a2b93f8f9b950f9d13838f8a2221784421fb54a9b4bc3486",
+      "size": 1406
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "e1f6251e85cfa4de9b6cf03cff67a9d6f2dacef35344a6a496423b9fc4aaae2e",
+      "size": 1155
+    },
+    {
+      "path": "references/recipes-solutions.md",
+      "sha256": "59ed6350db03d0a8d4c9e42f0e6c3edee81428a4c7cdd13023c25378c8b75082",
+      "size": 7123
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "5fb4c3bb929dccc5a60cf8da52964aa3eee3bba467c3f516c3cac7b650719f67",
+      "size": 1016
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "httpx-python",
+  "source_skill_version": "0.1.0"
+}
