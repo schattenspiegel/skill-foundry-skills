@@ -50,9 +50,7 @@ orders = pl.DataFrame(
         "unit_price": pl.Float64,
     },
     orient="row",
-).with_columns(
-    pl.col("occurred_at").str.to_datetime(time_zone="UTC", strict=True)
-)
+).with_columns(pl.col("occurred_at").str.to_datetime(time_zone="UTC", strict=True))
 ```
 
 Keep `strict=True` unless invalid input becoming null is the declared policy.
@@ -146,9 +144,7 @@ summary = (
 )
 
 annotated = orders.with_columns(
-    customer_revenue=(pl.col("quantity") * pl.col("unit_price"))
-    .sum()
-    .over("customer_id")
+    customer_revenue=(pl.col("quantity") * pl.col("unit_price")).sum().over("customer_id")
 )
 ```
 

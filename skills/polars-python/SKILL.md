@@ -55,6 +55,30 @@ is uncertain.
 7. Run targeted tests. Inspect a plan or measure scale only for a performance
    claim.
 
+## Rigorous analytical contract
+
+Separate four stages and report which ones actually ran:
+
+| Stage | Required output |
+|---|---|
+| Frame | Population, row grain, keys, metric formulas, units, missingness, and required order. |
+| Transform | Input/output objects, shape change, schema, execution boundary, and failure policy. |
+| Validate | Cardinality, reconciliation, invariants, adversarial fixtures, and execution evidence. |
+| Interpret | Evidence-supported result plus unresolved semantic, data, or numerical risk. |
+
+Do not infer semantics from column names alone. Distinguish row count, entity
+count, non-null count, numerator, denominator, and units before aggregation.
+Compute a rate from aggregated numerator and denominator unless the contract
+specifically defines a justified weighted alternative; never average row or
+subgroup rates merely because they are available.
+
+For consequential transformations, use at least one independent falsifier:
+input-order permutation, batch partition/recombination for row-local work,
+component-to-total reconciliation, eager/lazy equivalence, or a second query
+formulation. Passing execution is not validation. Read [rigorous Polars
+practice](references/recipes-rigorous-analysis.md) for the full checklist and
+evaluated anchors.
+
 ## Choose by intent and output shape
 
 | Required result | Use | Shape contract |
@@ -152,6 +176,11 @@ cardinality; otherwise prove uniqueness on the constrained side. Never cast
 keys unless both represent the same domain and conversion is lossless. Read
 [join rules](references/joins.md).
 
+After an important join, measure result rows, null fact keys, unmatched
+non-null fact rows, unused dimension keys, and any conserved measure required
+by the analysis. A cardinality declaration proves multiplicity, not semantic
+coverage or reconciliation.
+
 Do not rely on undocumented output order from group, join, unique, pivot, or
 unpivot. Preserve input order only where the chosen API guarantees it; otherwise
 encode the sort keys and tie-breakers that define a survivor, list, cumulative
@@ -185,13 +214,15 @@ Do not declare completion until the return object, grain, schema, cardinality,
 missing-value policy, and required order match the contract; the relevant
 dirty/empty/null/duplicate/permutation fixtures pass; no accidental
 materialization, unjustified Python row path, arbitrary key cast, or stale API
-remains; and project checks pass or skipped evidence and its consequence are
-reported.
+remains; aggregate components reconcile where required; validation status says
+what executed versus what was only generated; and project checks pass or
+skipped evidence and its consequence are reported.
 
 ## References
 
 - [Core solution recipes](references/recipes-core.md)
 - [Lazy and temporal recipes](references/recipes-scale.md)
+- [Rigorous analytical practice and recipes](references/recipes-rigorous-analysis.md)
 - [Object and shape model](references/object-model.md)
 - [DataFrame operation map](references/dataframe-operations.md)
 - [Expression and shape rules](references/expressions.md)

@@ -32,9 +32,7 @@ result.
 
 ```python
 daily = (
-    events.with_columns(
-        local_time=pl.col("event_time").dt.convert_time_zone("Europe/Berlin")
-    )
+    events.with_columns(local_time=pl.col("event_time").dt.convert_time_zone("Europe/Berlin"))
     .sort("local_time")
     .group_by_dynamic(
         "local_time",

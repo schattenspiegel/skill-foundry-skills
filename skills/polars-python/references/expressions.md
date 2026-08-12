@@ -33,19 +33,16 @@ independent work together, preserve unknown passthrough columns with
 
 ```python
 def enrich(frame: pl.DataFrame) -> pl.DataFrame:
-    return (
-        frame.with_columns(
-            net=pl.col("gross") / 1.2,
-            segment=(
-                pl.when(pl.col("spend").is_null())
-                .then(pl.lit("unknown"))
-                .when(pl.col("spend") >= 1_000)
-                .then(pl.lit("gold"))
-                .otherwise(pl.lit("standard"))
-            ),
-        )
-        .with_columns(tax=pl.col("gross") - pl.col("net"))
-    )
+    return frame.with_columns(
+        net=pl.col("gross") / 1.2,
+        segment=(
+            pl.when(pl.col("spend").is_null())
+            .then(pl.lit("unknown"))
+            .when(pl.col("spend") >= 1_000)
+            .then(pl.lit("gold"))
+            .otherwise(pl.lit("standard"))
+        ),
+    ).with_columns(tax=pl.col("gross") - pl.col("net"))
 ```
 
 Putting `tax` beside `net` in the first call is incorrect: sibling expressions
@@ -58,9 +55,7 @@ Use `List` for variable-length values and `Array` for fixed-shape values. Prefer
 
 ```python
 normalized = frame.with_columns(
-    pl.col("tags")
-    .list.eval(pl.element().str.strip_chars().str.to_lowercase())
-    .list.drop_nulls()
+    pl.col("tags").list.eval(pl.element().str.strip_chars().str.to_lowercase()).list.drop_nulls()
 )
 ```
 
@@ -130,11 +125,8 @@ shape. Load `time-series.md` directly from `SKILL.md` for temporal sortedness,
 calendar durations, boundaries, and time zones.
 
 ```python
-running = (
-    frame.sort("account_id", "occurred_at", "sequence")
-    .with_columns(
-        pl.col("amount").cum_sum().over("account_id").alias("running_amount")
-    )
+running = frame.sort("account_id", "occurred_at", "sequence").with_columns(
+    pl.col("amount").cum_sum().over("account_id").alias("running_amount")
 )
 
 history = (

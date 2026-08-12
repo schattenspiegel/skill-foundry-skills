@@ -46,15 +46,10 @@ import polars as pl
 
 
 def add_net_ratio(frame: pl.DataFrame) -> pl.DataFrame:
-    return (
-        frame.with_columns(
-            net=pl.col("gross") - pl.col("discount").fill_null(0)
-        )
-        .with_columns(
-            net_ratio=pl.when(pl.col("gross") != 0)
-            .then(pl.col("net") / pl.col("gross"))
-            .otherwise(None)
-        )
+    return frame.with_columns(net=pl.col("gross") - pl.col("discount").fill_null(0)).with_columns(
+        net_ratio=pl.when(pl.col("gross") != 0)
+        .then(pl.col("net") / pl.col("gross"))
+        .otherwise(None)
     )
 ```
 

@@ -70,16 +70,13 @@ import polars as pl
 
 
 def quarterly_sales(frame: pl.LazyFrame) -> pl.LazyFrame:
-    return (
-        frame.pivot(
-            on="quarter",
-            on_columns=["q1", "q2", "q3", "q4"],
-            index="account_id",
-            values="amount",
-            aggregate_function="sum",
-        )
-        .sort("account_id")
-    )
+    return frame.pivot(
+        on="quarter",
+        on_columns=["q1", "q2", "q3", "q4"],
+        index="account_id",
+        values="amount",
+        aggregate_function="sum",
+    ).sort("account_id")
 ```
 
 **Do not use when:** Categories are open-ended or the installed lazy API lacks the required capability; use an eager boundary deliberately.
@@ -97,9 +94,7 @@ import polars as pl
 
 def berlin_daily(events: pl.DataFrame) -> pl.DataFrame:
     return (
-        events.with_columns(
-            local_time=pl.col("event_time").dt.convert_time_zone("Europe/Berlin")
-        )
+        events.with_columns(local_time=pl.col("event_time").dt.convert_time_zone("Europe/Berlin"))
         .sort("local_time")
         .group_by_dynamic("local_time", every="1d", period="1d", closed="left")
         .agg(pl.col("amount").sum().alias("amount"), pl.len().alias("events"))

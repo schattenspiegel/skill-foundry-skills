@@ -2,8 +2,8 @@
   "files": [
     {
       "path": "SKILL.md",
-      "sha256": "275a074600f02065909b4dc774dd5163f43f287e04f5153d9af63528129aa0bc",
-      "size": 6817
+      "sha256": "923c3e4fbf3bb77d07a849aa79231d98ef8fb55c37a6f79aa3e726111eb00dd5",
+      "size": 8732
     },
     {
       "path": "references/object-model.md",
@@ -16,13 +16,18 @@
       "size": 1653
     },
     {
+      "path": "references/rigorous-practice.md",
+      "sha256": "991a33200d04c703385c717f9973f6de2ee15daac3cec93dd8835c2765f52b9b",
+      "size": 7182
+    },
+    {
       "path": "references/verification.md",
       "sha256": "af3064666153c6d03f3409dd04b692508b594295ce6b262f0ea1419a5bd63587",
       "size": 729
     }
   ],
-  "foundry_version": "0.1.0",
+  "foundry_version": "0.2.0",
   "schema_version": 1,
   "skill": "sympy-python",
-  "source_skill_version": "0.1.0"
+  "source_skill_version": "0.2.0"
 }

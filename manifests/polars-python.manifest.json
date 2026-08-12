@@ -2,8 +2,8 @@
   "files": [
     {
       "path": "SKILL.md",
-      "sha256": "cc7e8fb6b56c8fc4ff45fa3d827d92d4893721775479da1c8303636111022208",
-      "size": 11145
+      "sha256": "97df116feb9289deedec5921e3c3f82065782072c5ccd7f3b7871677aa5934e6",
+      "size": 12882
     },
     {
       "path": "references/api-grounding.md",
@@ -12,13 +12,13 @@
     },
     {
       "path": "references/dataframe-operations.md",
-      "sha256": "134f1d31bf1cbdce8415211cde53d1b71a75a9cf2143d79e0202d7126684e2ce",
-      "size": 10163
+      "sha256": "71ffc9830296336c93d67caacadc71cee4c15747548a11947e8de1798d442abe",
+      "size": 10147
     },
     {
       "path": "references/expressions.md",
-      "sha256": "b85e06f4ad3c543ffe74c3ea221738fb3c15ba1d461bbdfa1a8174228dd49e68",
-      "size": 6996
+      "sha256": "1892b835794ea1f9d91cc144020e2ffbddd3cec8bcc0ff4453324e8a2799035c",
+      "size": 6904
     },
     {
       "path": "references/joins.md",
@@ -27,8 +27,8 @@
     },
     {
       "path": "references/object-model.md",
-      "sha256": "6d99b7049effd1cf087df2a4c96e9ac5e6057f3814fde3e0d18ed4d334aa9a5c",
-      "size": 8829
+      "sha256": "143b9eed1f2994309cf9d656f9402f6b06e0fe05dc0474fa63234ae86bdb98d8",
+      "size": 8823
     },
     {
       "path": "references/pandas-migration.md",
@@ -42,13 +42,18 @@
     },
     {
       "path": "references/recipes-core.md",
-      "sha256": "a2bbd020856e5c898a28b5f9ad744772acbf50f7f2648c988062a0e18673b0cc",
-      "size": 4325
+      "sha256": "3d46ffac2ce20d90a1c9b79c0c9bb546a13d1868f96139ad2e82c32277201769",
+      "size": 4262
+    },
+    {
+      "path": "references/recipes-rigorous-analysis.md",
+      "sha256": "a57d8497b994a43d64ac8a510b5086f3d7b0d8827f513e31f5d6bc9154c71935",
+      "size": 13955
     },
     {
       "path": "references/recipes-scale.md",
-      "sha256": "4cf2f47d1821794713c151b60895da908255d44fcad0d1b55a4ed73250dba992",
-      "size": 4593
+      "sha256": "b92901a05c6677cd06e7960ab19e200ae76e3667a34fc71e15ddb077012455c3",
+      "size": 4522
     },
     {
       "path": "references/schema-missing.md",
@@ -62,8 +67,8 @@
     },
     {
       "path": "references/time-series.md",
-      "sha256": "670f7866cb48858a486a11dfcd86a4a27a4e0bb922ee3c51c41baa8b5e4f4e62",
-      "size": 2362
+      "sha256": "777b4a8dcc4c7924a69fe793b07d5d68ba802c5de5342b3ff25429136b7ebb63",
+      "size": 2348
     },
     {
       "path": "references/udf-contracts.md",
@@ -79,5 +84,5 @@
   "foundry_version": "0.2.0",
   "schema_version": 1,
   "skill": "polars-python",
-  "source_skill_version": "0.4.0"
+  "source_skill_version": "0.5.0"
 }

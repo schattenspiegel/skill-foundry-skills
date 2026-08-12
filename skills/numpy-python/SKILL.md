@@ -42,6 +42,32 @@ and memory. Read [the ndarray, axis, dtype, and ownership model](references/obje
 7. Test empty axes, singleton axes, noncontiguous views, integer limits,
    mixed dtypes, `NaN`/infinity, aliasing, and invalid shapes.
 
+## Rigorous numerical contract
+
+Separate four stages and report which ones actually ran:
+
+| Stage | Required output |
+|---|---|
+| Formulate | Mathematical quantity, units, domain, semantic axes, assumptions, and invariants. |
+| Compute | Algorithm, dtype, scale, shape, memory cost, and failure policy. |
+| Verify | Residual, invariant, refinement, independent formulation, or known reference. |
+| Interpret | Evidence-supported conclusion plus unresolved model, sampling, or numerical error. |
+
+Classify error sources before changing code: model error, input/measurement
+error, discretization error, sampling error, conditioning, and floating-point
+roundoff require different remedies. Do not call a result accurate merely
+because execution completed or two printed values look close.
+
+Before computing, nondimensionalize or rescale when magnitudes differ enough to
+harm conditioning. Prefer a stable algebraic formulation over higher precision;
+use higher precision only when the error budget requires it and the selected
+NumPy dtype/backend supplies it. Choose tolerances from units, scale,
+conditioning, algorithm, and consequence—never from `allclose` defaults alone.
+
+Read [rigorous numerical practice](references/recipes-rigorous-numerics.md)
+for the full checklist and reusable anchors for diagnosed linear solves, stable
+normalization, and reproducible Monte Carlo estimates.
+
 ## Choose by intent
 
 | Intent | Prefer | Guard |
@@ -105,6 +131,15 @@ returns a new floating array and rejects constant/nonfinite scale by policy.
   solving systems to explicit inverse multiplication.
 - Do not mutate `.shape` or `.dtype` attributes to reinterpret data. Use reshape,
   `astype`, or `view(dtype=...)` only when their different semantics are intended.
+- A small residual is backward-error evidence, not automatically a small
+  solution error when the problem is ill-conditioned. Report both conditioning
+  and a scale-aware residual.
+- For discretized algorithms, vary resolution and check convergence before
+  trusting the finest result. If refinement stops helping, investigate
+  roundoff, instability, or model error instead of extrapolating blindly.
+- For stochastic work, inject `Generator`, record the stream construction and
+  sample count, and report sampling uncertainty. A fixed seed makes a run
+  reproducible; it does not make an estimator correct.
 
 ## Performance and interoperability
 
@@ -119,10 +154,11 @@ like” does not guarantee a NumPy-owned CPU buffer.
 
 ## Version grounding and completion
 
-The stable online docs currently identify NumPy 2.5, while NumPy is absent from
-the foundry environment. Check the installed version with `np.__version__`, then
-inspect the migration guide and signature before relying on promotion, string dtype, copy keyword,
-random, or Array API behavior. Read [verification](references/verification.md).
+The stable online docs currently identify NumPy 2.5, and the foundry evaluator
+is pinned to NumPy 2.5.2. Check the target project's installed version with
+`np.__version__`, then inspect the migration guide and signature before relying
+on promotion, string dtype, copy keywords, random, or Array API behavior. Read
+[verification](references/verification.md).
 
 Completion requires exact shape/axis/dtype/ownership contracts; broadcast and
 mutation behavior proven on adversarial shapes/views; nonfinite and overflow
@@ -133,4 +169,5 @@ object dtype, unintended copy, or global RNG dependency.
 
 - [ndarray, axis, dtype, and ownership model](references/object-model.md)
 - [Operations, broadcasting, and numerical rules](references/operations.md)
+- [Rigorous numerical practice](references/recipes-rigorous-numerics.md)
 - [Verification and API grounding](references/verification.md)

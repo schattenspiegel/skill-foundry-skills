@@ -41,6 +41,29 @@ symbol. Read [expressions, domains, and assumptions](references/object-model.md)
 7. Test singularities, excluded domain points, branch cuts, multiple/no/infinite
    solutions, exact-versus-float input, and equivalent forms.
 
+## Rigorous-use contract
+
+Use SymPy in three distinct modes, and state which mode produced the result:
+
+| Mode | SymPy's role | Required evidence |
+|---|---|---|
+| Discovery | Generate patterns, candidate formulas, examples, or counterexamples. | Reproducible inputs and the unproved status. |
+| Verification | Check a stated claim under explicit assumptions. | Original-domain contract plus symbolic residual or independent check. |
+| Numerical support | Approximate an exact object or test a conjecture. | Precision, residual/error, stability check, and sampled regimes. |
+
+Do not promote discovery or sampled agreement to proof. Classify the final
+claim as symbolically established under stated assumptions, numerically
+supported, sampled only, conjectured, or unresolved. If SymPy returns an
+unevaluated result, `ConditionSet`, or an inconclusive `None`, preserve that
+uncertainty instead of converting it to failure or success.
+
+Before large computation, reduce the problem with symmetry, parity, scaling,
+invariants, substitutions, or a normalized representation. Keep the original,
+transformed, and claimed expressions separately. Search deliberately for
+boundary, degenerate, sign-changing, singular-nearby, and smallest-dimensional
+counterexamples. Read [rigorous symbolic practice](references/rigorous-practice.md)
+for the complete decision checklist and reusable verification anchors.
+
 ## Decision rules
 
 - Use `subs` for structural substitution. It does not mutate. For simultaneous
@@ -106,6 +129,12 @@ result. The solution domain excludes complex roots by contract.
 - Exact symbolic computation can explode in time/memory. Use targeted
   transformations, assumptions, expression-size limits, and numeric fallbacks
   under an explicit accuracy contract.
+- Treat solver output as candidates. Substitute finite candidates into the
+  original relation; distinguish `True`, `False`, and inconclusive checks.
+- Solve symbolic linear systems with an appropriate solver such as `LUsolve`,
+  then verify `A * solution - b`; do not form an inverse merely to solve.
+- Record convergence conditions for limits, integrals, sums, and series. Local
+  series agreement is not a global identity without a separate argument.
 
 ## Version grounding and completion
 
@@ -122,4 +151,5 @@ precision at the boundary.
 
 - [Expressions, domains, and assumptions](references/object-model.md)
 - [Operations and numeric boundaries](references/operations.md)
+- [Rigorous symbolic practice](references/rigorous-practice.md)
 - [Verification and grounding](references/verification.md)

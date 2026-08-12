@@ -96,9 +96,7 @@ eager_result = users.with_columns(
 )
 name: pl.Series = eager_result.get_column("name")
 
-plan: pl.LazyFrame = users.lazy().with_columns(
-    normalized_text("name").alias("name")
-)
+plan: pl.LazyFrame = users.lazy().with_columns(normalized_text("name").alias("name"))
 schema: pl.Schema = plan.collect_schema()
 ```
 
