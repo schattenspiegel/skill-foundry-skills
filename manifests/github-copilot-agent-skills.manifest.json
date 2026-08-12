@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "10c254e739bde55217af76b8b871d99eb34e77c002be5a6d930b109adfafff20",
+      "size": 2552
+    },
+    {
+      "path": "references/artifact-contracts.md",
+      "sha256": "65e1e4883c44a924ecab9426a38b2d7a4c4a14131991e52c34a458ba42cb10f1",
+      "size": 464
+    },
+    {
+      "path": "references/patterns.md",
+      "sha256": "563d34aa30ae0dcc7d4588891bee5e56d145f349ad069ee65769ba98a1e781b0",
+      "size": 998
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "4a834b595f02a77ee355b1e11860152bc0a603c773c7a885f35ae1d2ede3e5ae",
+      "size": 307
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "github-copilot-agent-skills",
+  "source_skill_version": "0.1.0"
+}

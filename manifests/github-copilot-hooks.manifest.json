@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "4f51fc92a9fbcf5b4bb0efdd16d4aa9e0104c8333ee17d8f9c3ae9aa8322be81",
+      "size": 2396
+    },
+    {
+      "path": "references/artifact-contracts.md",
+      "sha256": "e868e06ad606ae5a23e91a69946a7f4c3dcc187e89991f28fbf0ba9f23513f2a",
+      "size": 444
+    },
+    {
+      "path": "references/patterns.md",
+      "sha256": "c112c1a84bd5c0ea33a7ff53b4d975531433490e87cd003a82292cdfef8b951c",
+      "size": 1445
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "650c871f659626d6c5644b40ab3246c1344eef68593c3ee9e1165dfa31a27623",
+      "size": 313
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "github-copilot-hooks",
+  "source_skill_version": "0.1.0"
+}

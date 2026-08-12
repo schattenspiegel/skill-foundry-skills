@@ -72,6 +72,28 @@ distributed Skill Foundry artifact is independently authored and does not
 vendor that repository's files. The upstream project is acknowledged here for
 transparency.
 
+## GitHub Copilot and Visual Studio Code documentation
+
+The GitHub Copilot customization skills were researched against public GitHub
+Docs and Visual Studio Code documentation. Their instructions, decision rules,
+examples, and verification procedures are independently authored; this
+distribution does not reproduce or vendor those documentation sites.
+
+- [GitHub Docs](https://docs.github.com/) documentation content is made
+  available under the [Creative Commons Attribution 4.0 International
+  license](https://github.com/github/docs/blob/main/LICENSE).
+- [Visual Studio Code documentation](https://code.visualstudio.com/docs) is
+  maintained in the [microsoft/vscode-docs](https://github.com/microsoft/vscode-docs)
+  repository under the [Creative Commons Attribution 3.0 United States
+  license](https://github.com/microsoft/vscode-docs/blob/main/LICENSE.md).
+- The [github/awesome-copilot](https://github.com/github/awesome-copilot)
+  repository was reviewed as ecosystem inspiration and is
+  [MIT-licensed](https://github.com/github/awesome-copilot/blob/main/LICENSE.md).
+
+Links and product names identify compatibility and research provenance. They do
+not extend GitHub's, Microsoft's, or third parties' licenses to the original
+MIT-licensed skill text in this repository.
+
 ## Names and trademarks
 
 All project, company, and product names are the property of their respective

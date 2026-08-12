@@ -39,8 +39,10 @@ The copied directory itself is the skill root and contains `SKILL.md`.
 - Scientific computing and modeling: SciPy, scikit-learn, JAX, statsmodels,
   CVXPY, SymPy, and mpmath.
 - Bayesian modeling and analysis: PyMC, NumPyro, ArviZ, and Bambi.
+- GitHub Copilot customization: architecture and routing, instructions, prompt
+  files, custom agents, Agent Skills, hooks, MCP servers, and Agent Plugins.
 
-The distribution currently contains 43 compiled skills.
+The distribution currently contains 51 compiled skills.
 
 Each file in `manifests/` records the source skill version and SHA-256 hashes
 for the corresponding compiled artifact.
@@ -49,11 +51,10 @@ for the corresponding compiled artifact.
 
 These are compiled runtime artifacts, not a claim that every skill has passed
 every target host. Structural validation and distribution builds pass for all
-skills. The 16 newest candidates have executable one-trial mock-harness
-coverage in exact pinned library environments; that proves their deterministic
-graders and examples, not model behavior. GitHub Copilot model acceptance and
-the final Visual Studio Code smoke test must be performed in the consumer's
-environment.
+skills. New candidates have executable one-trial mock-harness coverage; that
+proves their evaluation wiring and deterministic graders, not model behavior.
+GitHub Copilot model acceptance and the final Visual Studio Code smoke test must
+be performed in the consumer's environment.
 
 ## License
 

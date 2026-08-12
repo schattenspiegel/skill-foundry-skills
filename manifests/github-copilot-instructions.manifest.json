@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "1e03bbf056b2b61dd544f6c5263278ae19cffbdb917b518567d0b0a7f6d3cd57",
+      "size": 2555
+    },
+    {
+      "path": "references/artifact-contracts.md",
+      "sha256": "b99603b1c8e0181d4dbf65badf9d06f8412416d753f337e0a8618dccbcddb062",
+      "size": 614
+    },
+    {
+      "path": "references/patterns.md",
+      "sha256": "55794a9830b6728b2c5f65db8c3a05018a1cf704284ca7c4bbd645623aee2892",
+      "size": 723
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "7403fa531bd025421479d39b852b1c280a5db4da8f423b7c57fdc2227f4d5f50",
+      "size": 371
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "github-copilot-instructions",
+  "source_skill_version": "0.1.0"
+}
