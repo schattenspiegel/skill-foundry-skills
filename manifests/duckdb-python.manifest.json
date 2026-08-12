@@ -1,0 +1,38 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "4046898058788715b134f939c69af2537fa6dec44183123cb8f0b71d2cb51f8b",
+      "size": 10014
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "792f81c8174fc42ea2d9ee9eaabf1e153f6142c9858c2b36ef366191f2cc68e8",
+      "size": 2073
+    },
+    {
+      "path": "references/operations.md",
+      "sha256": "129f9030e1cdca06016ea68e7028042f6d7127bd5a7dcd88fa91f24bab59ac5c",
+      "size": 1558
+    },
+    {
+      "path": "references/testing.md",
+      "sha256": "74a011857f9c3a7b18d6b18b14d0247bd3876315eddd26a3aff8b6b7eaab1d2a",
+      "size": 959
+    },
+    {
+      "path": "references/version-grounding.md",
+      "sha256": "e2b7ccb0dec461453395340912a437207ce5b220d37c507267df3be01cb78ced",
+      "size": 905
+    },
+    {
+      "path": "scripts/inspect_duckdb.py",
+      "sha256": "843e1ee15082fad8c4303107507f844f9921e3bfd2ffe5d1ca452012ecf743d7",
+      "size": 1323
+    }
+  ],
+  "foundry_version": "0.1.0",
+  "schema_version": 1,
+  "skill": "duckdb-python",
+  "source_skill_version": "0.1.0"
+}

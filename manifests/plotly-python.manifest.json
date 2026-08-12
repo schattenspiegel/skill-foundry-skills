@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "2e8e8f7c0b6a1ca1879c063d76ddf12b13dc35ac48cbe892f751e12acbc720f0",
+      "size": 7160
+    },
+    {
+      "path": "references/composition-events.md",
+      "sha256": "e86aad3d3b0fb3b0023a36976748e269b0a1939ec7c46c188408de6ee013f897",
+      "size": 1172
+    },
+    {
+      "path": "references/export-testing.md",
+      "sha256": "253cbf0d3f88ebd285096838d76832691560fffc66b773135c5344aff25abb7b",
+      "size": 920
+    },
+    {
+      "path": "references/figure-model.md",
+      "sha256": "4b18c57e7b524d77fd859d6dbc38a29106756a2d1e3d759ec12e2310745b7164",
+      "size": 1097
+    }
+  ],
+  "foundry_version": "0.1.0",
+  "schema_version": 1,
+  "skill": "plotly-python",
+  "source_skill_version": "0.1.0"
+}

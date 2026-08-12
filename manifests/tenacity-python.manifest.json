@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "9ab0d2e7ea587d73e465e8c3ea6c75d7269be2a14f6d41d91d459c3479f18eac",
+      "size": 6942
+    },
+    {
+      "path": "references/async-observability.md",
+      "sha256": "3d977d70982c094a61b570b1fdbf69b933b5d783e158cd74b57904fd4cf803d5",
+      "size": 1223
+    },
+    {
+      "path": "references/policy-testing.md",
+      "sha256": "61e0f627305c3958d116dbce5b008c1bad51c637114e72bc8d82535884a9fb9d",
+      "size": 1544
+    },
+    {
+      "path": "references/retry-model.md",
+      "sha256": "2b6ad0b5fe3d53e96da21096c9c0196d70ab41f205e53207fa090295e6795181",
+      "size": 1696
+    }
+  ],
+  "foundry_version": "0.1.0",
+  "schema_version": 1,
+  "skill": "tenacity-python",
+  "source_skill_version": "0.1.0"
+}

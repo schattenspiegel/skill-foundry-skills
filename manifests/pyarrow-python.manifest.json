@@ -1,0 +1,38 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "826ac01114c2c21680d988e4e2703f1017fecf3404d6f7d0f6e74a961fcc46a6",
+      "size": 9882
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "e57e33b76ecddb4a8dd415d8ace39ee9f9d67ade558c81b1f816257a0b3258ed",
+      "size": 2044
+    },
+    {
+      "path": "references/operations.md",
+      "sha256": "4a02c65040b170f251385ba5011ab73dac656ad7c4badfcde29024ca29cca922",
+      "size": 1590
+    },
+    {
+      "path": "references/testing.md",
+      "sha256": "d71ff870ebb699dcb560bbda9473e7d4391bd776355bd032641eeab962eeb6d8",
+      "size": 1127
+    },
+    {
+      "path": "references/version-grounding.md",
+      "sha256": "8e6796392b5d9e9b3c720ba3c0872c9e3510dd43886c451c8b431f410c9272f0",
+      "size": 925
+    },
+    {
+      "path": "scripts/inspect_pyarrow.py",
+      "sha256": "6ab9c6a4e01d5552385345aed92e9cc3fa3f27a456746dc54e6427fb4bbf8439",
+      "size": 1476
+    }
+  ],
+  "foundry_version": "0.1.0",
+  "schema_version": 1,
+  "skill": "pyarrow-python",
+  "source_skill_version": "0.1.0"
+}

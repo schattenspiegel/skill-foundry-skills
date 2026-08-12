@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "ec6e0a971f7f3be0c9e8c160451bf8842d86c26be90e6798ecbf2060f7259429",
+      "size": 8806
+    },
+    {
+      "path": "references/inference-diagnostics.md",
+      "sha256": "479a5823b03aa638e61a40e79968504ebb7883ccf99e224cecab33651af580df",
+      "size": 1358
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "d1b79e6c5c30e41be67753c1bc5c766a7c7489c585d8ab196e77a3a4cb15c180",
+      "size": 1440
+    },
+    {
+      "path": "references/testing-version.md",
+      "sha256": "01e9ea882d8736be7da47eec58fd4bec6cb1fc4e25ab671c2df2c2467834f1e2",
+      "size": 1237
+    }
+  ],
+  "foundry_version": "0.1.0",
+  "schema_version": 1,
+  "skill": "pymc-python",
+  "source_skill_version": "0.1.0"
+}

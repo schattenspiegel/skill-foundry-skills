@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "c16344d87acbbe9ad07104b5b5dd58e2c4342ca99586f51b019444ca95eb16d7",
+      "size": 7018
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "8b307b138b2bd333012501e2bce83a7db2f12e0d9d82f2657f80de4fb8afbe66",
+      "size": 1101
+    },
+    {
+      "path": "references/operations.md",
+      "sha256": "2b4a7e92680e8b9483238cfe654508688c4871fcf517f9ce37c9dca8fa01f452",
+      "size": 1242
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "fca5a57e453a5ed4179c3121c8faf4351b85cca8d47b6e0c1997b60939ca591a",
+      "size": 798
+    }
+  ],
+  "foundry_version": "0.1.0",
+  "schema_version": 1,
+  "skill": "cvxpy-python",
+  "source_skill_version": "0.1.0"
+}

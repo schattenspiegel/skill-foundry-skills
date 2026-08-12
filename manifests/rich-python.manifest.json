@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "73094a1265753bebf398feeb7289566eb272fc3fd699724c4e46dea45d2f874e",
+      "size": 6472
+    },
+    {
+      "path": "references/progress-live.md",
+      "sha256": "b784f39b017797fb25546ea9adfea4fbf05f671319e31435310ffc4effb47e32",
+      "size": 1422
+    },
+    {
+      "path": "references/rendering-model.md",
+      "sha256": "c656874b98f03b28411b91360e0d27c537f6eb25b64916011020a08600ed6580",
+      "size": 1810
+    },
+    {
+      "path": "references/testing-output.md",
+      "sha256": "7c698b2800475a6c943c8643eb189af6fbc00ea84bff6952d160220f9e31d5f7",
+      "size": 1276
+    }
+  ],
+  "foundry_version": "0.1.0",
+  "schema_version": 1,
+  "skill": "rich-python",
+  "source_skill_version": "0.1.0"
+}

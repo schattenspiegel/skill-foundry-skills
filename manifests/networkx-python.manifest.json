@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "a82e7f24f073ce436425289b3331288a1137a833b8f0b5c2c79ee3d5c60088b2",
+      "size": 7411
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "06df4e56905805cb6db159244fa7af5f73e9a9f4819be691cb2e0cfe0cabee4a",
+      "size": 2122
+    },
+    {
+      "path": "references/operations.md",
+      "sha256": "59cfa313b40e815d904736cf1c8fae453a62924418b77de4ed7e6b2f7ce2fa48",
+      "size": 1918
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "6bb4d59cd9dedd32fadf4a68a17cb6831db4d48aef1a659bbbe8a05c21c81402",
+      "size": 1319
+    }
+  ],
+  "foundry_version": "0.1.0",
+  "schema_version": 1,
+  "skill": "networkx-python",
+  "source_skill_version": "0.1.0"
+}

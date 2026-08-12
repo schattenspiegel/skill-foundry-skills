@@ -1,0 +1,58 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "2a5dd6fab5a1489c0ff06dcea2655fc73b02d394a709168996145a5416f9b7f4",
+      "size": 10738
+    },
+    {
+      "path": "references/api-grounding.md",
+      "sha256": "c1248d49d0832c9f820b7c48c92fcd6d885abf4c102fa3bd60d6ca1a450c7644",
+      "size": 2031
+    },
+    {
+      "path": "references/api-map.md",
+      "sha256": "7236dfffcd4199a6934d19586b88830907640a1f414a3bc04ed87ec4a0d7fd22",
+      "size": 5626
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "bdbe19a2f25790d6ded80a5f9a2451d1b2bb200e38f4cc85c7bc8de3bc4b20a8",
+      "size": 5722
+    },
+    {
+      "path": "references/serialization.md",
+      "sha256": "80384cf32e75432b2b5b40557223cc4fdffbcc6b20c121244181e523685d3827",
+      "size": 4330
+    },
+    {
+      "path": "references/settings.md",
+      "sha256": "befeafe5d80b92e4de2315958755c2c7639654e432e51991c5c6e28cb523b575",
+      "size": 5230
+    },
+    {
+      "path": "references/testing.md",
+      "sha256": "b8fb1cc2fd1378e27043374fcc19fde3d9bc1155dec64ac82fd2e663d107ec86",
+      "size": 1639
+    },
+    {
+      "path": "references/v1-v2.md",
+      "sha256": "57d8022bbae0172a3fceec7f2c6d752fec062b6ca5ed576e0387ee9a94f8bf2e",
+      "size": 1701
+    },
+    {
+      "path": "references/validation.md",
+      "sha256": "666f11d6981dab028f816733278e168902f797ec7d60163419d13dbd6e57a25b",
+      "size": 2150
+    },
+    {
+      "path": "scripts/inspect_pydantic.py",
+      "sha256": "f53a11ae162debbe708acd30e809870c9d467e1fbad5de8676339c6ff524ddf7",
+      "size": 3236
+    }
+  ],
+  "foundry_version": "0.1.0",
+  "schema_version": 1,
+  "skill": "pydantic-python",
+  "source_skill_version": "0.3.0"
+}

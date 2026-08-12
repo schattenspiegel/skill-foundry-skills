@@ -1,0 +1,38 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "3c0829b89381ce0fd98fbf5cb0faa77c6a950fc4b2cdbf15ce77818827d6c2b7",
+      "size": 8913
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "e0fc119655a1a9efc21bee71e420e37d05d0d00c10588113e7f83a9b030deffb",
+      "size": 1618
+    },
+    {
+      "path": "references/operations.md",
+      "sha256": "fe0c15763b3accb7a00c46fa3dfe1a36870c1694f512f9e9355b0d7031c67a6e",
+      "size": 1420
+    },
+    {
+      "path": "references/testing.md",
+      "sha256": "a12e12e3a69850a63a69b23d67af4599496292c7df9b4ba8d9c002c1780f6a3c",
+      "size": 978
+    },
+    {
+      "path": "references/version-grounding.md",
+      "sha256": "edb4aa5bf024a0aac1b2b5da7020091493a863e34b2b627ff28584c8e00e5cfe",
+      "size": 809
+    },
+    {
+      "path": "scripts/inspect_pandera_polars.py",
+      "sha256": "55e51b6984ee3e02a6f891b020132ee6b359dcce20722a205ced577e1ff25677",
+      "size": 1640
+    }
+  ],
+  "foundry_version": "0.1.0",
+  "schema_version": 1,
+  "skill": "pandera-polars",
+  "source_skill_version": "0.1.0"
+}

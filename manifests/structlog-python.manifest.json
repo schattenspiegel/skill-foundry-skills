@@ -1,0 +1,53 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "44ea78077ea2e78d3cf6af2d4590f78914cc7998a26c1b581ea302872deadb55",
+      "size": 10445
+    },
+    {
+      "path": "references/api-grounding.md",
+      "sha256": "5838eae71e8097e0217d6a567749f01d685939bb7fd2d5cbf7fa7db8a8f175bc",
+      "size": 2000
+    },
+    {
+      "path": "references/api-map.md",
+      "sha256": "7a6e8b8e3d32d63c3ba776e9324c1218074bf3f901221325141a3ddf40668eb5",
+      "size": 6870
+    },
+    {
+      "path": "references/context.md",
+      "sha256": "4a03e99cc6d77e5d81b0919fe807419a7926f85d2a8992d9e222d56011ad4e6f",
+      "size": 1337
+    },
+    {
+      "path": "references/integration.md",
+      "sha256": "48fdfc18b162ec63e8f14db9833397bd750b2fab332f03ee9a05dd27e869cb5c",
+      "size": 2218
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "af4e0628dc26d6dc4631fb3fe32c3eff8ca308d0b59456c22ad203be1ab21c9b",
+      "size": 6189
+    },
+    {
+      "path": "references/processors.md",
+      "sha256": "0301c0504b9eec946e8ce01c75e6c03fc211d91caa480122573be1cb7043b2bd",
+      "size": 3706
+    },
+    {
+      "path": "references/testing.md",
+      "sha256": "d19a37f517e6df4e873436c01e0c681f4703e9638b166dea796f4d8156e73710",
+      "size": 1881
+    },
+    {
+      "path": "scripts/inspect_structlog.py",
+      "sha256": "6e91e6d9c71e5ea169210410a693779e34364ca7e83d7d2ff388a9392544a7bc",
+      "size": 2902
+    }
+  ],
+  "foundry_version": "0.1.0",
+  "schema_version": 1,
+  "skill": "structlog-python",
+  "source_skill_version": "0.3.0"
+}

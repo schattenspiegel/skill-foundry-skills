@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "275a074600f02065909b4dc774dd5163f43f287e04f5153d9af63528129aa0bc",
+      "size": 6817
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "fb94f8855586c1fb801e162ac24b7ebff8e0b76c1eade7e31a5d86bce11ab792",
+      "size": 1252
+    },
+    {
+      "path": "references/operations.md",
+      "sha256": "f5a894bd02ba5f2d37d89c561add4f310bbabd98ba860c2da59a20610fe02778",
+      "size": 1653
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "af3064666153c6d03f3409dd04b692508b594295ce6b262f0ea1419a5bd63587",
+      "size": 729
+    }
+  ],
+  "foundry_version": "0.1.0",
+  "schema_version": 1,
+  "skill": "sympy-python",
+  "source_skill_version": "0.1.0"
+}

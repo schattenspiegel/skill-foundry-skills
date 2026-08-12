@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "ec674d50b26b8230ef78292d8471574ad43e4d5679d6b28a3247da4cf8d3f99a",
+      "size": 6581
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "fac2a2d9f29aaaa5d497f705de8c0a9e02795755263acd021e7089aa31b87f2f",
+      "size": 1009
+    },
+    {
+      "path": "references/operations.md",
+      "sha256": "51475586823dd40e5b2529a56e1ac3657ff2588f496380b2716b942be6f2619c",
+      "size": 1617
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "b0703a42df6649cb8898b2a24132c47f0749ecc68c1ab313cf076b2c22fc8791",
+      "size": 970
+    }
+  ],
+  "foundry_version": "0.1.0",
+  "schema_version": 1,
+  "skill": "rustworkx-python",
+  "source_skill_version": "0.1.0"
+}

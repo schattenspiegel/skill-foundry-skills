@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "754ccba4dda74c06b515e911781b5d0e732e10283a43280c7f6a722540016f21",
+      "size": 8975
+    },
+    {
+      "path": "references/diagnostics-comparison.md",
+      "sha256": "d372a3f7cb37dc1a0a567129584ac267e4eaa5ca53e5c83f931a01e4533df527",
+      "size": 1287
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "61a93858ff18f90c4d25bfd564dc9867a31587c856ed8a7cafb8bac99293ea11",
+      "size": 1637
+    },
+    {
+      "path": "references/testing-version.md",
+      "sha256": "23cd046c32695fbbadff7e580cd56cbfc7b36806489d95d5ec668d7f5618c9c8",
+      "size": 1352
+    }
+  ],
+  "foundry_version": "0.1.0",
+  "schema_version": 1,
+  "skill": "arviz-python",
+  "source_skill_version": "0.1.0"
+}

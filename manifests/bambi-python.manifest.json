@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "e1c4129fc1547079364bfb1e27badba6879ff7ccf405abd8f00232414599348e",
+      "size": 8842
+    },
+    {
+      "path": "references/inference-priors.md",
+      "sha256": "8202077e7ec567808e18048ea69386e7cdc2e1c8df13debd6edafdb3b77f991c",
+      "size": 1250
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "9f61d14b6eea27a16eb936b81ead296d4899b606c005c6fc8cd0fbeb4cf135da",
+      "size": 1240
+    },
+    {
+      "path": "references/testing-version.md",
+      "sha256": "5fa9850618030584f3ed6080c5321fd23a1ee471302ac602586a66bde966f135",
+      "size": 1201
+    }
+  ],
+  "foundry_version": "0.1.0",
+  "schema_version": 1,
+  "skill": "bambi-python",
+  "source_skill_version": "0.1.0"
+}

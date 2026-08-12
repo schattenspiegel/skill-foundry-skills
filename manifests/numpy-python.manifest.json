@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "fd9656a1ba34a1820f84f859389397e39ce6624cdec6c181c9ddf20666268149",
+      "size": 7789
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "0311e8d97eeefa7960d04084947fcea93ddfc9a25bfff141d92c884643b5627e",
+      "size": 1802
+    },
+    {
+      "path": "references/operations.md",
+      "sha256": "227ba211fd4723236f8126b464babbabeb3ff6cd9e88cca260effc6925fbe282",
+      "size": 1457
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "853e788a3d82f47b0887f45b4e8dae06ef8d4e443677da84a6780b49b4be1027",
+      "size": 982
+    }
+  ],
+  "foundry_version": "0.1.0",
+  "schema_version": 1,
+  "skill": "numpy-python",
+  "source_skill_version": "0.1.0"
+}

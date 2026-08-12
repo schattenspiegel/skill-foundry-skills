@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "8c8d7d6352b7868821fa550a84e030b57c8b46508b1db0aeeede30f7a42c68ca",
+      "size": 6873
+    },
+    {
+      "path": "references/event-model.md",
+      "sha256": "827c3d370a6d6a16d27568bcb2d1a4cb9b4104f894364520e296ab695a08dbd7",
+      "size": 1140
+    },
+    {
+      "path": "references/modeling.md",
+      "sha256": "4bab69198271c3eb16ca3630045265b56324232332dd4f1a40d926fb103860d4",
+      "size": 1367
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "7fe93a90a9fbfc872baa6cc02da2d73b692bdae50a055d3f9ba7111666df9f99",
+      "size": 762
+    }
+  ],
+  "foundry_version": "0.1.0",
+  "schema_version": 1,
+  "skill": "simpy-python",
+  "source_skill_version": "0.1.0"
+}
