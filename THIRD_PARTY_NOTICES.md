@@ -1,0 +1,74 @@
+# Third-party notices
+
+Last reviewed: 2026-08-12.
+
+## Scope
+
+The repository's original skill text and helper scripts are licensed under the
+MIT License in [LICENSE](LICENSE). The skills describe public APIs and link to
+documentation, but this distribution does not bundle, modify, or redistribute
+the referenced library packages or their source code.
+
+The projects below are independent works governed by their own licenses. Their
+licenses do not become licenses for this repository, and this repository's MIT
+license does not relicense them. If a future change copies or vendors
+third-party material, preserve the applicable copyright, license, NOTICE, and
+source-offer obligations in the same change.
+
+The license identifiers below describe the upstream repositories as reviewed on
+the date above. Follow the linked upstream license for the exact current terms.
+This inventory is a practical provenance record, not legal advice or a warranty
+that a future upstream version has unchanged terms. Re-run the review before
+vendoring code, documentation, media, models, data, or binary dependencies.
+
+| Skill compatibility target | Upstream project | Upstream license |
+|---|---|---|
+| Polars | [pola-rs/polars](https://github.com/pola-rs/polars) | [MIT](https://github.com/pola-rs/polars/blob/main/LICENSE) |
+| PyArrow | [apache/arrow](https://github.com/apache/arrow) | [Apache-2.0](https://github.com/apache/arrow/blob/main/LICENSE.txt) |
+| DuckDB | [duckdb/duckdb](https://github.com/duckdb/duckdb) | [MIT](https://github.com/duckdb/duckdb/blob/main/LICENSE) |
+| Pydantic | [pydantic/pydantic](https://github.com/pydantic/pydantic) | [MIT](https://github.com/pydantic/pydantic/blob/main/LICENSE) |
+| Pydantic Settings | [pydantic/pydantic-settings](https://github.com/pydantic/pydantic-settings) | [MIT](https://github.com/pydantic/pydantic-settings/blob/main/LICENSE) |
+| Pandera | [unionai-oss/pandera](https://github.com/unionai-oss/pandera) | [MIT](https://github.com/unionai-oss/pandera/blob/main/LICENSE.txt) |
+| SQLGlot | [tobymao/sqlglot](https://github.com/tobymao/sqlglot) | [MIT](https://github.com/tobymao/sqlglot/blob/main/LICENSE) |
+| NetworkX | [networkx/networkx](https://github.com/networkx/networkx) | [BSD-3-Clause](https://github.com/networkx/networkx/blob/main/LICENSE.txt) |
+| Structlog | [hynek/structlog](https://github.com/hynek/structlog) | [MIT OR Apache-2.0](https://github.com/hynek/structlog/blob/main/pyproject.toml) |
+| Typer | [fastapi/typer](https://github.com/fastapi/typer) | [MIT](https://github.com/fastapi/typer/blob/master/LICENSE) |
+| Rich | [Textualize/rich](https://github.com/Textualize/rich) | [MIT](https://github.com/Textualize/rich/blob/main/LICENSE) |
+| Tenacity | [jd/tenacity](https://github.com/jd/tenacity) | [Apache-2.0](https://github.com/jd/tenacity/blob/main/LICENSE) |
+| orjson | [ijl/orjson](https://github.com/ijl/orjson) | [MPL-2.0, Apache-2.0, and MIT by file](https://github.com/ijl/orjson#license) |
+| python-xxhash | [ifduyue/python-xxhash](https://github.com/ifduyue/python-xxhash) | [BSD-2-Clause](https://github.com/ifduyue/python-xxhash/blob/master/LICENSE) |
+| Altair | [vega/altair](https://github.com/vega/altair) | [BSD-3-Clause](https://github.com/vega/altair/blob/main/LICENSE) |
+| Great Tables | [posit-dev/great-tables](https://github.com/posit-dev/great-tables) | [MIT](https://github.com/posit-dev/great-tables/blob/main/LICENSE) |
+| Plotly.py | [plotly/plotly.py](https://github.com/plotly/plotly.py) | [MIT](https://github.com/plotly/plotly.py/blob/main/LICENSE.txt) |
+| Streamlit | [streamlit/streamlit](https://github.com/streamlit/streamlit) | [Apache-2.0](https://github.com/streamlit/streamlit/blob/develop/LICENSE) |
+| NumPy | [numpy/numpy](https://github.com/numpy/numpy) | [BSD-3-Clause](https://github.com/numpy/numpy/blob/main/LICENSE.txt) |
+| SimPy | [simpx/simpy](https://github.com/simpx/simpy) | [MIT](https://github.com/simpx/simpy/blob/master/LICENSE.rst) |
+| PyMC | [pymc-devs/pymc](https://github.com/pymc-devs/pymc) | [Apache-2.0 with included component notices](https://github.com/pymc-devs/pymc/blob/main/LICENSE) |
+| NumPyro | [pyro-ppl/numpyro](https://github.com/pyro-ppl/numpyro) | [Apache-2.0](https://github.com/pyro-ppl/numpyro/blob/master/LICENSE.md) |
+| ArviZ | [arviz-devs/arviz](https://github.com/arviz-devs/arviz) | [Apache-2.0](https://github.com/arviz-devs/arviz/blob/main/LICENSE) |
+| Bambi | [bambinos/bambi](https://github.com/bambinos/bambi) | [MIT](https://github.com/bambinos/bambi/blob/main/LICENSE) |
+| rustworkx | [Qiskit/rustworkx](https://github.com/Qiskit/rustworkx) | [Apache-2.0](https://github.com/Qiskit/rustworkx/blob/main/LICENSE) |
+| CVXPY | [cvxpy/cvxpy](https://github.com/cvxpy/cvxpy) | [Apache-2.0](https://github.com/cvxpy/cvxpy/blob/master/LICENSE) |
+| SymPy | [sympy/sympy](https://github.com/sympy/sympy) | [BSD-3-Clause](https://github.com/sympy/sympy/blob/master/LICENSE) |
+| mpmath | [mpmath/mpmath](https://github.com/mpmath/mpmath) | [BSD-3-Clause](https://github.com/mpmath/mpmath/blob/master/LICENSE) |
+
+## Upstream Agent Skill inspiration
+
+The Polars skill was developed after reviewing the official
+[polars-inc/skills](https://github.com/polars-inc/skills) project, which is
+[MIT-licensed](https://github.com/polars-inc/skills/blob/main/LICENSE). The
+distributed Skill Foundry artifact is independently authored and does not
+vendor that repository's files. The upstream project is acknowledged here for
+transparency.
+
+## Names and trademarks
+
+All project, company, and product names are the property of their respective
+owners. Names are used only to identify the software APIs with which a skill is
+intended to operate. No sponsorship, affiliation, certification, or endorsement
+is implied by inclusion in this repository.
+
+GitHub and GitHub Copilot are trademarks of GitHub, Inc. Microsoft and Visual
+Studio Code are trademarks of Microsoft Corporation. OpenAI, Codex, and GPT are
+marks of OpenAI. This is an independent community project and is not affiliated
+with or endorsed by those companies.

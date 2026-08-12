@@ -49,4 +49,11 @@ in the consumer's environment.
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+Original material in this repository is licensed under MIT. The referenced
+libraries remain independent works under their own licenses; no library package
+or vendor source code is bundled here. See [LICENSE](LICENSE) and
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+Project and product names are used only to identify compatibility. This project
+is not affiliated with or endorsed by the referenced maintainers, GitHub,
+Microsoft, or OpenAI.
