@@ -172,6 +172,8 @@ consequences.
 
 ## References
 
+- [Query and result recipes](references/recipes-query.md)
+- [Resource and persistence recipes](references/recipes-resources.md)
 - [Connection and relation model](references/object-model.md)
 - [Operation map](references/operations.md)
 - [Version and API grounding](references/version-grounding.md)

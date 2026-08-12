@@ -2,8 +2,8 @@
   "files": [
     {
       "path": "SKILL.md",
-      "sha256": "be2d0fc57f29f28234358b56dcc24dec92e5b3a7f8f1fa28bba9f760aa388893",
-      "size": 11032
+      "sha256": "cc7e8fb6b56c8fc4ff45fa3d827d92d4893721775479da1c8303636111022208",
+      "size": 11145
     },
     {
       "path": "references/api-grounding.md",
@@ -41,6 +41,16 @@
       "size": 3836
     },
     {
+      "path": "references/recipes-core.md",
+      "sha256": "a2bbd020856e5c898a28b5f9ad744772acbf50f7f2648c988062a0e18673b0cc",
+      "size": 4325
+    },
+    {
+      "path": "references/recipes-scale.md",
+      "sha256": "4cf2f47d1821794713c151b60895da908255d44fcad0d1b55a4ed73250dba992",
+      "size": 4593
+    },
+    {
       "path": "references/schema-missing.md",
       "sha256": "c599fc52ae66bc3ddf208ed402d29d9b5bad04dd8d867abd26a5847d2a368d83",
       "size": 2686
@@ -66,8 +76,8 @@
       "size": 3623
     }
   ],
-  "foundry_version": "0.1.0",
+  "foundry_version": "0.2.0",
   "schema_version": 1,
   "skill": "polars-python",
-  "source_skill_version": "0.3.0"
+  "source_skill_version": "0.4.0"
 }

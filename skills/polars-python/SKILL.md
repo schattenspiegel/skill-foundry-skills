@@ -190,6 +190,8 @@ reported.
 
 ## References
 
+- [Core solution recipes](references/recipes-core.md)
+- [Lazy and temporal recipes](references/recipes-scale.md)
 - [Object and shape model](references/object-model.md)
 - [DataFrame operation map](references/dataframe-operations.md)
 - [Expression and shape rules](references/expressions.md)

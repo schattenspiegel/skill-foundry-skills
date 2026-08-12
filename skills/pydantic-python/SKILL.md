@@ -201,6 +201,8 @@ matrix](references/testing.md).
 
 ## References
 
+- [Validation and serialization recipes](references/recipes-contracts.md)
+- [Settings recipes](references/recipes-settings.md)
 - [Core object model](references/object-model.md)
 - [Intent-to-API map](references/api-map.md)
 - [Validation boundaries](references/validation.md)

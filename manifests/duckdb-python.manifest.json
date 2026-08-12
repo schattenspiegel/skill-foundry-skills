@@ -2,8 +2,8 @@
   "files": [
     {
       "path": "SKILL.md",
-      "sha256": "4046898058788715b134f939c69af2537fa6dec44183123cb8f0b71d2cb51f8b",
-      "size": 10014
+      "sha256": "6696711b009743f216efe1b1e8d6e89b26a4c2548cd5e3ecf584f78bdf4b7cd3",
+      "size": 10142
     },
     {
       "path": "references/object-model.md",
@@ -14,6 +14,16 @@
       "path": "references/operations.md",
       "sha256": "129f9030e1cdca06016ea68e7028042f6d7127bd5a7dcd88fa91f24bab59ac5c",
       "size": 1558
+    },
+    {
+      "path": "references/recipes-query.md",
+      "sha256": "599e0b4839fa388b5e9a6a0c0c1a15e3340f2322f7f1c4774c5ef026b8557c6b",
+      "size": 4370
+    },
+    {
+      "path": "references/recipes-resources.md",
+      "sha256": "f62410bdc9664031106c7d8121a7ea2e72433c88f7be4b7f4f93bf4066c98a0e",
+      "size": 5182
     },
     {
       "path": "references/testing.md",
@@ -31,8 +41,8 @@
       "size": 1323
     }
   ],
-  "foundry_version": "0.1.0",
+  "foundry_version": "0.2.0",
   "schema_version": 1,
   "skill": "duckdb-python",
-  "source_skill_version": "0.1.0"
+  "source_skill_version": "0.2.0"
 }

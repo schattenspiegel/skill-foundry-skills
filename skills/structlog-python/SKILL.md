@@ -176,6 +176,8 @@ skipped evidence and consequences are reported.
 
 ## References
 
+- [Event pipeline recipes](references/recipes-events.md)
+- [Integration and test recipes](references/recipes-integration.md)
 - [Object and event model](references/object-model.md)
 - [Intent-to-API map](references/api-map.md)
 - [Processor contracts](references/processors.md)

@@ -2,8 +2,8 @@
   "files": [
     {
       "path": "SKILL.md",
-      "sha256": "2a5dd6fab5a1489c0ff06dcea2655fc73b02d394a709168996145a5416f9b7f4",
-      "size": 10738
+      "sha256": "317cae3b63bf42435970e0389b8381b2e9502cc10969d78d6cda15d1169286de",
+      "size": 10865
     },
     {
       "path": "references/api-grounding.md",
@@ -19,6 +19,16 @@
       "path": "references/object-model.md",
       "sha256": "bdbe19a2f25790d6ded80a5f9a2451d1b2bb200e38f4cc85c7bc8de3bc4b20a8",
       "size": 5722
+    },
+    {
+      "path": "references/recipes-contracts.md",
+      "sha256": "5a552d7f73d21ec00aebe96d234c080f9dfb58e3cd9c8e17838de121c4910c8a",
+      "size": 4461
+    },
+    {
+      "path": "references/recipes-settings.md",
+      "sha256": "f9be78c8e21bff0b6b89a6917a88653036172f96d4bf2dc1aa5821419cfd132e",
+      "size": 4384
     },
     {
       "path": "references/serialization.md",
@@ -51,8 +61,8 @@
       "size": 3236
     }
   ],
-  "foundry_version": "0.1.0",
+  "foundry_version": "0.2.0",
   "schema_version": 1,
   "skill": "pydantic-python",
-  "source_skill_version": "0.3.0"
+  "source_skill_version": "0.4.0"
 }

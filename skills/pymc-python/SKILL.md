@@ -140,6 +140,8 @@ skipped diagnostic, backend limitation, or version uncertainty is reported.
 
 ## References
 
+- [Model construction recipes](references/recipes-models.md)
+- [Inference and prediction recipes](references/recipes-inference.md)
 - [Model and shape contract](references/object-model.md)
 - [Inference and predictive diagnostics](references/inference-diagnostics.md)
 - [Testing and version grounding](references/testing-version.md)

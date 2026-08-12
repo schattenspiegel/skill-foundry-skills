@@ -2,8 +2,8 @@
   "files": [
     {
       "path": "SKILL.md",
-      "sha256": "44ea78077ea2e78d3cf6af2d4590f78914cc7998a26c1b581ea302872deadb55",
-      "size": 10445
+      "sha256": "2619b37136e24a4c72bf07f2142b80ce3b9ffd5e6194405a2a70ee4ef15f5b2e",
+      "size": 10570
     },
     {
       "path": "references/api-grounding.md",
@@ -36,6 +36,16 @@
       "size": 3706
     },
     {
+      "path": "references/recipes-events.md",
+      "sha256": "e95a7bf88268fe22b05906595f59a2730639c6ef68b31a4d07586f36e8b202da",
+      "size": 4244
+    },
+    {
+      "path": "references/recipes-integration.md",
+      "sha256": "37c2588daccb612ecd00d44d362d0c3c43fa6514caf14455df315fa510022580",
+      "size": 4658
+    },
+    {
       "path": "references/testing.md",
       "sha256": "d19a37f517e6df4e873436c01e0c681f4703e9638b166dea796f4d8156e73710",
       "size": 1881
@@ -46,8 +56,8 @@
       "size": 2902
     }
   ],
-  "foundry_version": "0.1.0",
+  "foundry_version": "0.2.0",
   "schema_version": 1,
   "skill": "structlog-python",
-  "source_skill_version": "0.3.0"
+  "source_skill_version": "0.4.0"
 }
