@@ -1,0 +1,43 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "6f1a2976940229804735a6f3f3a472d0210b85a7119f823970eb78aff25133cd",
+      "size": 7816
+    },
+    {
+      "path": "references/compatibility.md",
+      "sha256": "c72151291b7f2a0811fc451d8e127c8a729e4c2d1520e086078af0b7eaaba118",
+      "size": 963
+    },
+    {
+      "path": "references/execution-semantics.md",
+      "sha256": "0bbf991f3ce0f65412623a758a8e3bda6b8d0c518f947a43fb9f824ef5575e19",
+      "size": 1229
+    },
+    {
+      "path": "references/native-commands.md",
+      "sha256": "da293f934a52e219cb3afdb0283c1e21425c5bff7904bbc02d5507563414a122",
+      "size": 1121
+    },
+    {
+      "path": "references/recipes-core.md",
+      "sha256": "74fd00c42db16aa38dd63a70ec53782b37560d86e5d44944637321a8587c81a2",
+      "size": 11777
+    },
+    {
+      "path": "references/security-safety.md",
+      "sha256": "8418bbb41595168ae14b20f147eb9bf07364b01b1e2002de288e387e275ff41d",
+      "size": 1078
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "f102cd049189a6b2bc4fdf8a75758f34d83a32ab61305614886f365691ade84e",
+      "size": 1104
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "powershell-scripting",
+  "source_skill_version": "0.2.0"
+}

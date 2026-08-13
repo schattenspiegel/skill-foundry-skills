@@ -472,6 +472,18 @@
       "version": "0.1.0"
     },
     {
+      "kind": "technology",
+      "manifest": "manifests/powershell-scripting.manifest.json",
+      "manifest_sha256": "76a4279fb2407cafd119eacec07d9028b1e9c286010f78fa9c2e0e95844457da",
+      "name": "powershell-scripting",
+      "packs": [
+        "automation-scripting"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.2.0"
+    },
+    {
       "kind": "orchestrator",
       "manifest": "manifests/problem-solving.manifest.json",
       "manifest_sha256": "7b9685b884b05bb1bf2662dabcf5c227f2719de3265fa8558c82bf3296492af1",

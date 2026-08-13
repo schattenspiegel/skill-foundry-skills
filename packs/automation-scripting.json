@@ -1,0 +1,13 @@
+{
+  "description": "PowerShell scripting, automation, compatibility, testing, and safe operations.",
+  "name": "automation-scripting",
+  "schema_version": 1,
+  "skills": [
+    {
+      "name": "powershell-scripting",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.2.0"
+    }
+  ]
+}
