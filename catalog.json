@@ -460,6 +460,18 @@
       "version": "0.5.0"
     },
     {
+      "kind": "technology",
+      "manifest": "manifests/powerpoint-python.manifest.json",
+      "manifest_sha256": "87967b3ac9fe63221341d447a54dc2ecc5e886dbdc798024fd6db3fc5d88751e",
+      "name": "powerpoint-python",
+      "packs": [
+        "visualization-delivery"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
       "kind": "orchestrator",
       "manifest": "manifests/problem-solving.manifest.json",
       "manifest_sha256": "7b9685b884b05bb1bf2662dabcf5c227f2719de3265fa8558c82bf3296492af1",

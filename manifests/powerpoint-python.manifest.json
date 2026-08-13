@@ -1,0 +1,128 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "01c2fad3c00899c6a36afab62d4b7c24f3494930c46b35c88ff9758a04ae0999",
+      "size": 10173
+    },
+    {
+      "path": "references/accessibility.md",
+      "sha256": "3ef98b86c1213303232195c5b7a5e5c712efd1460a668796e4bd3e342ce9b469",
+      "size": 745
+    },
+    {
+      "path": "references/api-grounding.md",
+      "sha256": "e23572f58bb5160ba1317f73959a4a4ebb2987e2df1e0a44db870faee1358ded",
+      "size": 729
+    },
+    {
+      "path": "references/boundaries.md",
+      "sha256": "677ed64e01ed1efa104bf4991ec5192e8cbd95f73ccb92ff88e6443779df5ebb",
+      "size": 849
+    },
+    {
+      "path": "references/charts.md",
+      "sha256": "d29ace2ddf0ed8e969fb9a015eaf449c3cdbecd98fff92bbd9b6166c513d1159",
+      "size": 711
+    },
+    {
+      "path": "references/existing-presentations.md",
+      "sha256": "6ce67901038cbcc9c5e6302872f146591be5ba10fafc591aa4fe4859573df802",
+      "size": 757
+    },
+    {
+      "path": "references/geometry-layout.md",
+      "sha256": "10f87fa120c7e788f74ae32362121ffd699ba138880f1c2d92a5ea2a1e69c158",
+      "size": 828
+    },
+    {
+      "path": "references/images.md",
+      "sha256": "a86dae55410478409d0c1fcdf0cbc47922a8bff89908827171b07a628a6eb657",
+      "size": 682
+    },
+    {
+      "path": "references/notes-links-media.md",
+      "sha256": "6efd336b7970e83e741840aefd5a4a09c20b0b3b5b376610e347045684e0bfca",
+      "size": 698
+    },
+    {
+      "path": "references/ooxml-preservation.md",
+      "sha256": "9b278dac04c0ba0a749b78bb40bcde3f0d0acc5681f2b2b36fb90056f467383c",
+      "size": 771
+    },
+    {
+      "path": "references/performance.md",
+      "sha256": "bfb941901fc1b7b0f6778c97c67f4c09ab5c0fd39bf3d5da0a09d7bcb2b9eba3",
+      "size": 631
+    },
+    {
+      "path": "references/presentation-contract.md",
+      "sha256": "adb9148db62b5acaf593fc92366228c47f83134c8e1df328fb4b0f0490e33a66",
+      "size": 832
+    },
+    {
+      "path": "references/recipes-core.md",
+      "sha256": "03916ef6a05ca6d46db3541a64b52d33b527c40b77f21574701d7e06c6bfa946",
+      "size": 2232
+    },
+    {
+      "path": "references/rendering-visual-qa.md",
+      "sha256": "d486be41207677584ec4a51a61651288fa83e31aca1b598567f09f40b0fd34de",
+      "size": 798
+    },
+    {
+      "path": "references/security.md",
+      "sha256": "2f39fd6d7ff443f6dfcc11a8c3794c1eaece263efacfce3faf997a8b76ee5d52",
+      "size": 702
+    },
+    {
+      "path": "references/tables.md",
+      "sha256": "80b07ebdc2c198bb17b4f27befcd94a85a7e0b03ccf101aee8065101525e143c",
+      "size": 595
+    },
+    {
+      "path": "references/templates-layouts-placeholders.md",
+      "sha256": "0ba24aee776335cbbe5a708a627c96dffbf6942d263e5e70f684b351a7aaf090",
+      "size": 854
+    },
+    {
+      "path": "references/text-typography.md",
+      "sha256": "d022355965fbadca6dc72240aff3e1af9771e9f453fd87287174875269c759f9",
+      "size": 772
+    },
+    {
+      "path": "references/validation-testing.md",
+      "sha256": "e57c8ba7637016426949499f724a1a19f31748ca1a25cf6bb82693fe6e855ea2",
+      "size": 952
+    },
+    {
+      "path": "scripts/diff_presentations.py",
+      "sha256": "8de5bad0f7e9cd12132e0e284bad6fcdc4c97fb50c35817318343c5efa0c8b47",
+      "size": 4166
+    },
+    {
+      "path": "scripts/inspect_powerpoint_env.py",
+      "sha256": "1613ef7b20d3aad6de3a46e58ca2d92a0a5076d43c0102a2779a2b428731f964",
+      "size": 3355
+    },
+    {
+      "path": "scripts/inspect_presentation.py",
+      "sha256": "bfd2a55fa7990d76e7c7d3339140736208e02793987ab804179346a6c228b6a7",
+      "size": 16998
+    },
+    {
+      "path": "scripts/inspect_template.py",
+      "sha256": "345493af356bfa78a49564ffd81d3e78c730042c2b79fcccbde8d45028e36b4a",
+      "size": 3933
+    },
+    {
+      "path": "scripts/validate_presentation.py",
+      "sha256": "54fd5eda5b75421e670077421d0e9890d1efaf87ada23844ad42a41477e2d28c",
+      "size": 16328
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "powerpoint-python",
+  "source_skill_version": "0.1.0"
+}
