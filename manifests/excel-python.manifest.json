@@ -2,27 +2,97 @@
   "files": [
     {
       "path": "SKILL.md",
-      "sha256": "655f7eff309713ca9703f41b9552fb14d20a440cac66896ce1f6b8f284a91f67",
-      "size": 4013
+      "sha256": "488cf3dc9e2916dbabc164fb869a050b3d7ecd3c5d54d4528ad59b359798586b",
+      "size": 8044
+    },
+    {
+      "path": "references/existing-workbooks.md",
+      "sha256": "400927178336396a05325f9e902ddf5a4430893f279a03a20f7c833e77d6f284",
+      "size": 1121
     },
     {
       "path": "references/formulas.md",
-      "sha256": "d30a7e1d0ed90301b3cf4f1b547467374a450f41f498860a5d2414ed771abab9",
-      "size": 446
+      "sha256": "b9de89eecf908588a4cdb12d2100c97e0621fed3f9dd7024a979d7af119714b4",
+      "size": 2659
     },
     {
       "path": "references/generation.md",
-      "sha256": "332f594afad96471c7563b17bfbf9542e18c69cd756260e2eea2a5dbd6d8158c",
-      "size": 472
+      "sha256": "edf01727932fe61582a9b515e5e1438fc942d43be43199efa6b0fa95c3f343a4",
+      "size": 1225
+    },
+    {
+      "path": "references/ingestion.md",
+      "sha256": "24d4ddfb8d9b36f9706943b26c87bbb745a004d0a88b16b5e43cec9cfe019bcd",
+      "size": 872
     },
     {
       "path": "references/inspection.md",
-      "sha256": "b0071ddc5115ccf40b42147848a9e40bc397537738f89a51197b9a108f52e333",
-      "size": 470
+      "sha256": "363d5828a906f301805c37d1fd67037b14b629b13a34410a97b2cf4e443b050d",
+      "size": 1120
+    },
+    {
+      "path": "references/library-selection.md",
+      "sha256": "a84c17b3117fb1f4ddf5d213d60656ccdcd1ff4fd5c35086948bd880051f6ec1",
+      "size": 1422
+    },
+    {
+      "path": "references/ooxml-preservation.md",
+      "sha256": "57fe34a2789f4f01973b24d755f20af411da1e7cb1b3ec831d75119f5c49a694",
+      "size": 1255
+    },
+    {
+      "path": "references/performance.md",
+      "sha256": "d9c81a7fc5d078ddea2a22cdc4b77bab56736595d16c26f9befb491a670fd77e",
+      "size": 1138
+    },
+    {
+      "path": "references/presentation.md",
+      "sha256": "994b4a94922a0a3e08460b5b025f8302d1164e5647d06e380064c9872a82dbbb",
+      "size": 1323
+    },
+    {
+      "path": "references/recipes-core.md",
+      "sha256": "e6a403d501fd9c8da19302998233a87d863af7f252a14f5295833e4c0442cd62",
+      "size": 3457
+    },
+    {
+      "path": "references/security.md",
+      "sha256": "e116676325e71915a7dc0e63cf67f8c4aaaedc946492770cfa68f7cc96cc3f82",
+      "size": 1096
+    },
+    {
+      "path": "references/types-and-precision.md",
+      "sha256": "1332c00cc861e3210e7ffeb3f703089145a5f817b5450f9aa0a66a7c4a49494c",
+      "size": 1804
+    },
+    {
+      "path": "references/validation-testing.md",
+      "sha256": "8ea72fc68fe36e8b7930d92bb1edf6e1669cfe0f81966ffe5bb3acd1b77c2450",
+      "size": 1308
+    },
+    {
+      "path": "references/workbook-contracts.md",
+      "sha256": "0235bbda8b28b101165e0ce3ec3e5fd7cde7398ca1d6c3e1c61ba1fa438fbef0",
+      "size": 1263
+    },
+    {
+      "path": "scripts/diff_workbooks.py",
+      "sha256": "993cdc6f5b196a5dc8f06ef2fe4bdd748e23b23f9d095e5f9102a353b0c1b287",
+      "size": 3730
+    },
+    {
+      "path": "scripts/inspect_excel_env.py",
+      "sha256": "d83ffd50692851727078d506e10c37f369a6fe2ba18d5f5deca9593273222750",
+      "size": 2557
+    },
+    {
+      "path": "scripts/inspect_workbook.py",
+      "sha256": "a87df6e1f6c1a44894ca1e125d08b494860955e9ec27355cf74f0814e3ceaf3a",
+      "size": 12224
     }
   ],
   "foundry_version": "0.2.0",
   "schema_version": 1,
   "skill": "excel-python",
-  "source_skill_version": "0.1.0"
+  "source_skill_version": "0.2.0"
 }

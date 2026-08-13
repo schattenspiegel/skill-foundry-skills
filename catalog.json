@@ -115,7 +115,7 @@
     {
       "kind": "technology",
       "manifest": "manifests/excel-python.manifest.json",
-      "manifest_sha256": "0b957cc2420a76d50ae5d74d334f5e1dc58fdb5d4b9eb8da06526ee1bd83cd9b",
+      "manifest_sha256": "003d9c2a235e6b57603515a55695df96101f36baa4e06c53bab4d5ed9e81b9ac",
       "name": "excel-python",
       "packs": [
         "local-data",
@@ -123,7 +123,7 @@
       ],
       "quality_tier": "candidate",
       "target_evidence": "not_run",
-      "version": "0.1.0"
+      "version": "0.2.0"
     },
     {
       "kind": "integration",
