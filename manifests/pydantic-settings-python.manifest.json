@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "7f8d6d4dc95ca6828b7c7161c9ad7f6a47c7c3312ebaef2eca1fac2cd00efe9c",
+      "size": 3748
+    },
+    {
+      "path": "references/recipes-settings.md",
+      "sha256": "b917769e9d914620eecb86a7989b8fb5fe021c240a6e2aed5776760525cf4fc5",
+      "size": 1946
+    },
+    {
+      "path": "references/settings.md",
+      "sha256": "3510db42c5ee55f1427a388452377ff6e9c44240b3cd318c2d37c0379ca6dea8",
+      "size": 799
+    },
+    {
+      "path": "references/testing.md",
+      "sha256": "8823446eb39e299bbcc3626092ad9930511aa61927614cef8789743a4810e497",
+      "size": 488
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "pydantic-settings-python",
+  "source_skill_version": "0.1.0"
+}

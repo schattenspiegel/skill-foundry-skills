@@ -1,0 +1,43 @@
+{
+  "description": "Static and interactive visualization, display tables, dashboards, and Excel delivery.",
+  "name": "visualization-delivery",
+  "schema_version": 1,
+  "skills": [
+    {
+      "name": "altair-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "excel-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "great-tables-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "matplotlib-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "plotly-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "streamlit-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    }
+  ]
+}

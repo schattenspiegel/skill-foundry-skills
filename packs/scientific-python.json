@@ -1,0 +1,79 @@
+{
+  "description": "Numerical, symbolic, graph, simulation, optimization, and labeled-array computing.",
+  "name": "scientific-python",
+  "schema_version": 1,
+  "skills": [
+    {
+      "name": "cvxpy-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "jax-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "matplotlib-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "mpmath-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "networkx-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "numpy-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.2.0"
+    },
+    {
+      "name": "rustworkx-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "scipy-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "simpy-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "sympy-numpy-scipy-boundaries",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "sympy-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.2.0"
+    },
+    {
+      "name": "xarray-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    }
+  ]
+}

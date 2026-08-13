@@ -43,9 +43,7 @@ from pathlib import Path
 import duckdb
 
 
-def stream_active(
-    connection: duckdb.DuckDBPyConnection, path: Path, batch_size: int = 65_536
-):
+def stream_active(connection: duckdb.DuckDBPyConnection, path: Path, batch_size: int = 65_536):
     if batch_size < 1:
         raise ValueError("batch_size must be positive")
     relation = connection.sql(
@@ -70,9 +68,7 @@ from pathlib import Path
 import duckdb
 
 
-def active_orders(
-    connection: duckdb.DuckDBPyConnection, path: Path
-) -> duckdb.DuckDBPyRelation:
+def active_orders(connection: duckdb.DuckDBPyConnection, path: Path) -> duckdb.DuckDBPyRelation:
     return connection.sql(
         "SELECT customer_id, amount FROM read_parquet(?) WHERE active = true",
         params=[str(path)],
@@ -100,9 +96,7 @@ from pathlib import Path
 import duckdb
 
 
-def explain_active_scan(
-    connection: duckdb.DuckDBPyConnection, path: Path
-) -> str:
+def explain_active_scan(connection: duckdb.DuckDBPyConnection, path: Path) -> str:
     relation = connection.sql(
         "SELECT id FROM read_parquet(?) WHERE active = true",
         params=[str(path)],

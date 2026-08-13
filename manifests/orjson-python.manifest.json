@@ -21,7 +21,7 @@
       "size": 1202
     }
   ],
-  "foundry_version": "0.1.0",
+  "foundry_version": "0.2.0",
   "schema_version": 1,
   "skill": "orjson-python",
   "source_skill_version": "0.1.0"

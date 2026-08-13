@@ -1,68 +1,30 @@
 # Skill Foundry Skills
 
-Compiled Agent Skills for GitHub Copilot Agent Mode and other Agent
-Skills-compatible hosts.
+This is the sanitized runtime distribution of Agent Skills built by Skill
+Foundry. It contains only compiled skill directories, external manifests, pack
+manifests, the license, and notices. Authoring research, evaluation fixtures,
+private orchestration skills, and foundry tooling are excluded.
 
-This repository is distribution-only. It contains runtime instructions,
-one-hop references, and optional runtime helpers. Authoring research,
-evaluation cases, hidden graders, baselines, and Skill Foundry source code are
-maintained separately.
+## Evidence labels
 
-## Install a skill
+- **recommended**: the strongest deterministic evaluation coverage in this
+  portfolio; target-host acceptance is reported separately.
+- **candidate**: structurally valid with bounded evaluation coverage, but still
+  requires more semantic or target-host evidence.
+- **target_evidence: not_run**: no GitHub Copilot acceptance claim.
+- **target_evidence: diagnostic_proxy**: proxy evidence only; not acceptance.
+- **target_evidence: copilot_accepted**: repeated conforming target-host evidence
+  has been recorded by the private foundry.
 
-For a repository-scoped GitHub Copilot skill, copy one directory into the
-target repository:
+`catalog.json` is the canonical machine-readable inventory. `packs/*.json`
+provides curated groupings without introducing an installer.
 
-```text
-skills/<name>/  ->  <target-repository>/.github/skills/<name>/
-```
+## Install one skill
 
-For a personal GitHub Copilot skill, copy it into:
+Copy `skills/NAME/` to either:
 
-```text
-~/.copilot/skills/<name>/
-```
+- `~/.copilot/skills/NAME/` for personal GitHub Copilot use; or
+- `.github/skills/NAME/` in a repository.
 
-The copied directory itself is the skill root and contains `SKILL.md`.
-
-## Included skills
-
-- Core Python and testing: asyncio, datetime/zoneinfo, subprocess, typing,
-  pytest, Hypothesis, and their pytest/Hypothesis integration boundary.
-- Data and validation: Polars, PyArrow, DuckDB, pandas, Pydantic and Pydantic
-  Settings, Pandera for Polars, SQLGlot, NumPy, Xarray, and the Polars/PyArrow
-  interchange boundary.
-- Python application libraries: Structlog, HTTPX, FastAPI, Typer, Rich,
-  Tenacity, orjson, and xxhash.
-- Visualization and apps: Altair, Great Tables, Plotly, and Streamlit.
-- Graphs and simulation: NetworkX, rustworkx, and SimPy.
-- Scientific computing and modeling: SciPy, scikit-learn, JAX, statsmodels,
-  CVXPY, SymPy, and mpmath.
-- Bayesian modeling and analysis: PyMC, NumPyro, ArviZ, and Bambi.
-- GitHub Copilot customization: architecture and routing, instructions, prompt
-  files, custom agents, Agent Skills, hooks, MCP servers, and Agent Plugins.
-
-The distribution currently contains 51 compiled skills.
-
-Each file in `manifests/` records the source skill version and SHA-256 hashes
-for the corresponding compiled artifact.
-
-## Evidence boundary
-
-These are compiled runtime artifacts, not a claim that every skill has passed
-every target host. Structural validation and distribution builds pass for all
-skills. New candidates have executable one-trial mock-harness coverage; that
-proves their evaluation wiring and deterministic graders, not model behavior.
-GitHub Copilot model acceptance and the final Visual Studio Code smoke test must
-be performed in the consumer's environment.
-
-## License
-
-Original material in this repository is licensed under MIT. The referenced
-libraries remain independent works under their own licenses; no library package
-or vendor source code is bundled here. See [LICENSE](LICENSE) and
-[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
-
-Project and product names are used only to identify compatibility. This project
-is not affiliated with or endorsed by the referenced maintainers, GitHub,
-Microsoft, or OpenAI.
+Verify current locations and customization behavior in the installed VS Code
+host before relying on them. Third-party libraries are not included.

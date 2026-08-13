@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "83ed69daafe1def31c294222e61535ba3be358db3ba3369fee2e64e2e997a2c6",
+      "size": 3185
+    },
+    {
+      "path": "references/objects.md",
+      "sha256": "067511d94264c7f5795435bbdd39f80418059b6a1e55849506422d9d0ac26479",
+      "size": 413
+    },
+    {
+      "path": "references/testing.md",
+      "sha256": "a64695fe5abc113b30f367d47843d73b7ec58d1e95ba4adba25f1b4b4961889b",
+      "size": 395
+    },
+    {
+      "path": "references/transactions.md",
+      "sha256": "a0a2203d975d5905ccbeef8940346460196cd84e1e5e6b9c78c6b5422105c34e",
+      "size": 465
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "sqlalchemy-python",
+  "source_skill_version": "0.1.0"
+}

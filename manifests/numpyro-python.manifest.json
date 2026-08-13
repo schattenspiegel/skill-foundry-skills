@@ -2,8 +2,8 @@
   "files": [
     {
       "path": "SKILL.md",
-      "sha256": "534e76fc2dcff01257086a2d423dd17c9c65629b7bd1e2d2dbc25290555bcc0c",
-      "size": 8836
+      "sha256": "1c47c08abce76972f9a2aa6bbe8548a8bb14a379e14c1749b4ca555d31e56b65",
+      "size": 8822
     },
     {
       "path": "references/inference-jax.md",
@@ -21,7 +21,7 @@
       "size": 1220
     }
   ],
-  "foundry_version": "0.1.0",
+  "foundry_version": "0.2.0",
   "schema_version": 1,
   "skill": "numpyro-python",
   "source_skill_version": "0.1.0"

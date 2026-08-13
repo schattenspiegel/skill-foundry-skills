@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "130c307987c0c7ee2113e55b05724430e88c748ad1596257dc868d099e8d7e7b",
+      "size": 3905
+    },
+    {
+      "path": "references/budgets.md",
+      "sha256": "932c6a157ed7bbaa39b4ef4ee76249ed82fa3e5f12bda8699a6c0fb8779c0df9",
+      "size": 498
+    },
+    {
+      "path": "references/lifecycle.md",
+      "sha256": "ff2f71471e3ec5450a1f9deb8b22911feccab5cac45443535dc8c03caaf0f006",
+      "size": 638
+    },
+    {
+      "path": "references/retry-semantics.md",
+      "sha256": "a67a29303cfac5e4285bd6aca3cbf2efcc3ea3db71321566b5b68178470afe26",
+      "size": 581
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "httpx-tenacity-asyncio",
+  "source_skill_version": "0.1.0"
+}

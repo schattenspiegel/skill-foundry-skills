@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "2509ef8a31dbc198650aa262958c476e3d4311912f13ce7bd54b0fe5d176f09f",
+      "size": 3151
+    },
+    {
+      "path": "references/migration.md",
+      "sha256": "992e2b796ce1da35e7521ceb4ffd3468bf88d12a79acfbb22db0477cff616854",
+      "size": 422
+    },
+    {
+      "path": "references/projects.md",
+      "sha256": "16843598bd6d369b6b277307f4581ec51b8b09b9b55169b7c26a8c11f7f5321f",
+      "size": 407
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "3d57a1633ba8e593a577aa010b71b6551a5100aaa5d163df8dec96be26fcf486",
+      "size": 408
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "python-project-tooling",
+  "source_skill_version": "0.1.0"
+}

@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "655f7eff309713ca9703f41b9552fb14d20a440cac66896ce1f6b8f284a91f67",
+      "size": 4013
+    },
+    {
+      "path": "references/formulas.md",
+      "sha256": "d30a7e1d0ed90301b3cf4f1b547467374a450f41f498860a5d2414ed771abab9",
+      "size": 446
+    },
+    {
+      "path": "references/generation.md",
+      "sha256": "332f594afad96471c7563b17bfbf9542e18c69cd756260e2eea2a5dbd6d8158c",
+      "size": 472
+    },
+    {
+      "path": "references/inspection.md",
+      "sha256": "b0071ddc5115ccf40b42147848a9e40bc397537738f89a51197b9a108f52e333",
+      "size": 470
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "excel-python",
+  "source_skill_version": "0.1.0"
+}

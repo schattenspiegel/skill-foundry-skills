@@ -2,8 +2,8 @@
   "files": [
     {
       "path": "SKILL.md",
-      "sha256": "c7b02ea19613e21a7b00a0001e10ca007bcd63716841e6453cc4ce2bf76f2e45",
-      "size": 8937
+      "sha256": "320102e9eea0392baf0d17b72122426706fbed4caa118b8c0e99cb6d840d113f",
+      "size": 8893
     },
     {
       "path": "references/inference-diagnostics.md",
@@ -17,13 +17,13 @@
     },
     {
       "path": "references/recipes-inference.md",
-      "sha256": "c25a75bf4b05e9a8e6a3bc4690f141f7066691a3b486f5dd0e77de1f36bc8b6f",
-      "size": 4714
+      "sha256": "6e7de752e872493b252dc21335df98cfb6739404df781b66175664db6d5ad8e1",
+      "size": 4692
     },
     {
       "path": "references/recipes-models.md",
-      "sha256": "14cada8df3069f6e719c7814c8deb62a688ea10a55f9bd283e5cc4c8b9a4f58e",
-      "size": 5978
+      "sha256": "b6eb28a09f00d2a0737f0f6656069759c6e972af5d8a6900a66b037750205e88",
+      "size": 5966
     },
     {
       "path": "references/testing-version.md",

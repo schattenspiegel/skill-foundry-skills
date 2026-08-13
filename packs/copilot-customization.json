@@ -1,0 +1,55 @@
+{
+  "description": "GitHub Copilot instructions, prompts, agents, skills, hooks, MCP, and plugins.",
+  "name": "copilot-customization",
+  "schema_version": 1,
+  "skills": [
+    {
+      "name": "github-copilot-agent-skills",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "github-copilot-custom-agents",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "github-copilot-customization-architecture",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "github-copilot-hooks",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "github-copilot-instructions",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "github-copilot-mcp",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "github-copilot-plugins",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "github-copilot-prompt-files",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    }
+  ]
+}

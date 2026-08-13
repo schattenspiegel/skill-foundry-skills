@@ -1,0 +1,113 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "85c22cb6ed331664a3048f2e096ed59284b0835a8de65bff664f24360a7fa38b",
+      "size": 8822
+    },
+    {
+      "path": "assets/templates/decision-record.md",
+      "sha256": "858f596a860ed67416db99f61cd103330a200e1a3a96784e56dafd69fac1cb99",
+      "size": 355
+    },
+    {
+      "path": "assets/templates/diagnostic-brief.md",
+      "sha256": "b6f6d1253cb670dfef210ed99c4b287b6f180b074d48d2e61198c0c2df7df601",
+      "size": 396
+    },
+    {
+      "path": "assets/templates/execution-plan.md",
+      "sha256": "d8b80ff0527c9421a3a9b26417c8b40ac07049b5265d2219a6cf96fcf2a83be4",
+      "size": 297
+    },
+    {
+      "path": "assets/templates/experiment-plan.md",
+      "sha256": "16b6a239e695ce1f300a3365d6d2095748ff9110627c3942c0d69ba9e5482801",
+      "size": 331
+    },
+    {
+      "path": "assets/templates/postmortem.md",
+      "sha256": "71a4ef3f05b903de21a79c5112975fa9333399945876a3ff3e3fb7931c4b39b4",
+      "size": 567
+    },
+    {
+      "path": "assets/templates/solution-brief.md",
+      "sha256": "1ffeeaee7e68ba4ff0871158143a08d8754a34a8834785d313ec0687f5f824ce",
+      "size": 533
+    },
+    {
+      "path": "references/decision-making.md",
+      "sha256": "9c8751b20e09d6aad371e1b9f7f2d06e607a2819fec4ec48d566d72e375e2918",
+      "size": 1780
+    },
+    {
+      "path": "references/decomposition-and-systems.md",
+      "sha256": "09c2903b5cb43c17279041e750500ab1f10c77207de1c1eaf100c9be21c80206",
+      "size": 1725
+    },
+    {
+      "path": "references/diagnosis-and-causality.md",
+      "sha256": "1db3ecfac3f9a4d4f73cbbc52af9d54987e1186b7210110a8d818e34ebf30f37",
+      "size": 1897
+    },
+    {
+      "path": "references/evidence-and-research.md",
+      "sha256": "3c3e59647035eb3f99d52f1e899208dfeb29e71b4a6106dc40fcb8149ae13fa9",
+      "size": 1672
+    },
+    {
+      "path": "references/experimentation.md",
+      "sha256": "5b2758f26014b2f4f1b2b0e623df2c8dc6a6aa3fa48f770fc28f15c744d1dcf8",
+      "size": 1613
+    },
+    {
+      "path": "references/failure-modes.md",
+      "sha256": "071992db20569505543877fe29acab4098d677b11e2fa291805eddbc1807b7d6",
+      "size": 1772
+    },
+    {
+      "path": "references/framing-and-success.md",
+      "sha256": "6001afb4e9c1b83f2a6b2f0b30023bb9f3aab6ba9d9f0a5753a5cd0e4a0cd7db",
+      "size": 1814
+    },
+    {
+      "path": "references/human-factors.md",
+      "sha256": "5c30e2354a034be2a37cb6ee4b8c46c653627a0aee080aca9aea9aaf0ac22fb7",
+      "size": 1557
+    },
+    {
+      "path": "references/operating-loop.md",
+      "sha256": "78951cf20b06cb5c6bbd80526f3eb02d42a62f5cd6a2753c8ba50646a8ade20d",
+      "size": 2389
+    },
+    {
+      "path": "references/planning-and-execution.md",
+      "sha256": "978e2f1c9479437188c8622a8188b89b635a9023a66f920e8f28561f6311c596",
+      "size": 1733
+    },
+    {
+      "path": "references/solution-patterns.md",
+      "sha256": "93e44c882a305e87a9c5a5c65664523770c581ca1554000f7f1b2bf69ac70883",
+      "size": 1895
+    },
+    {
+      "path": "references/tool-and-agent-routing.md",
+      "sha256": "3a04bf186a7ecc391d30cab141c1b5925aaaee91a0e444bd2cf6b8ff3e920f2e",
+      "size": 1828
+    },
+    {
+      "path": "references/verification-and-red-team.md",
+      "sha256": "85623749881b7bc7d171f9f030ee66816a358626b5f015843f00994d1fc7a980",
+      "size": 1718
+    },
+    {
+      "path": "references/worked-examples.md",
+      "sha256": "445fd5cb87824224ec6a1b135122728ead1da42820bf052e23b31f52e80e0799",
+      "size": 2357
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "problem-solving",
+  "source_skill_version": "0.1.0"
+}

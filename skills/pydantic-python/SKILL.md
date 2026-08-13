@@ -1,23 +1,22 @@
 ---
 name: pydantic-python
-description: Use for writing, reviewing, debugging, migrating, or testing Python code built on Pydantic v2 or pydantic-settings. Trigger for BaseModel, RootModel, Field or Annotated constraints, validators, serializers, TypeAdapter, discriminated unions, aliases, JSON Schema, ValidationError, BaseSettings, environment or dotenv parsing, secrets sources, and settings precedence. Do not use for plain dataclasses, attrs, generic typing, or environment-variable tasks that do not use Pydantic.
-argument-hint: "[Pydantic model, settings, payload, migration, or validation failure]"
+description: Use for writing, reviewing, debugging, migrating, or testing Python code built on Pydantic v2. Trigger for BaseModel, RootModel, Field or Annotated constraints, validators, serializers, TypeAdapter, discriminated unions, aliases, JSON Schema, and ValidationError. Do not use for pydantic-settings source resolution, plain dataclasses, attrs, generic typing, or environment-variable tasks.
+argument-hint: "[Pydantic model, payload, migration, or validation failure]"
 ---
 
-# Pydantic and pydantic-settings
+# Pydantic validation and serialization
 
 Produce version-grounded boundaries whose input source, conversion policy,
-validated output type, invariants, serialized shape, and settings precedence are
-explicit and tested.
+validated output type, invariants, and serialized shape are explicit and tested.
 
 ## Boundary
 
-Use this skill when the project uses Pydantic/pydantic-settings or the user
+Use this skill when the project uses Pydantic or the user
 explicitly requests them. Do not introduce runtime validation for a trusted
-internal record that only needs a dataclass or `TypedDict`. Treat settings as an
-application composition-root concern, not a generic replacement for
-`os.environ`. Preserve public validation errors and serialized schemas unless
-the task explicitly changes them.
+internal record that only needs a dataclass or `TypedDict`. Route BaseSettings,
+environment, dotenv, secrets-directory, or settings-source work to the
+`pydantic-settings-python` skill. Preserve public validation errors and
+serialized schemas unless the task explicitly changes them.
 
 ## Know the two compiled paths
 
@@ -39,7 +38,6 @@ typed value -> serializer (python or json mode) -> dict / JSON-compatible data /
 | Field/model serializer | User code inserted into output conversion. | Output rules that differ from validation; never use validators as serializers. |
 | `TypeAdapter[T]` | A compiled validator/serializer for any supported type `T` without an artificial model. | Collections, unions, `TypedDict`, dataclasses, and standalone types. Reuse it. |
 | `RootModel[T]` | A named model whose payload is one root value. | A true root-value public type that needs model behavior. |
-| `BaseSettings` | A model whose missing initializer values are assembled from configured sources before validation. | Application configuration from init, environment, dotenv, secrets, or explicit custom sources. |
 
 Read [the core object model](references/object-model.md) when choosing an
 abstraction or reasoning about validation versus serialization.
@@ -48,17 +46,16 @@ abstraction or reasoning about validation versus serialization.
 
 1. Recover the boundary: input source and shape, trust, desired output type,
    accepted coercions, extra-data policy, aliases, and serialized contract.
-2. Confirm installed Pydantic and pydantic-settings versions from project locks
-   and the active environment.
-3. Choose `BaseModel`, `TypeAdapter`, `RootModel`, or `BaseSettings` from the
+2. Confirm the installed Pydantic version from project locks and the active environment.
+3. Choose `BaseModel`, `TypeAdapter`, or `RootModel` from the
    required runtime object—not from habit.
 4. Express structure and constraints in types/fields. Add the narrowest
    deterministic validator only for remaining rules.
 5. Choose the entrypoint matching Python, JSON, or string-mapping input.
 6. Design serialization separately: mode, aliases, exclusions, subclass policy,
-   and secrets.
+   and sensitive fields.
 7. Test valid, invalid, conversion, extra-key, alias, invariant, and serialized
-   cases. For settings, test source names and collisions.
+   cases.
 
 ## Choose by intent
 
@@ -80,7 +77,6 @@ abstraction or reasoning about validation versus serialization.
 | Emit JSON text | `model_dump_json()` |
 | Use external names on input only | `validation_alias` |
 | Use external names on output only | `serialization_alias` plus `by_alias=True` |
-| Load application configuration | `pydantic_settings.BaseSettings` with `SettingsConfigDict` |
 
 Read [the intent-to-API map](references/api-map.md) for aliases, unions,
 attribute loading, JSON Schema, dataclasses, call validation, and dynamic models.
@@ -147,40 +143,6 @@ the other. Read [validation boundaries](references/validation.md).
 
 Read [serialization and aliases](references/serialization.md).
 
-## Settings are source resolution plus validation
-
-Import `BaseSettings` and `SettingsConfigDict` from `pydantic_settings`, not
-`pydantic`. Instantiate settings once near startup and inject the result.
-
-```python
-from pydantic import BaseModel, SecretStr
-from pydantic_settings import BaseSettings, SettingsConfigDict
-
-
-class DatabaseSettings(BaseModel):
-    host: str
-    password: SecretStr
-
-
-class Settings(BaseSettings):
-    model_config = SettingsConfigDict(
-        env_prefix="APP_",
-        env_nested_delimiter="__",
-        env_file=".env",
-        extra="forbid",
-    )
-
-    debug: bool = False
-    database: DatabaseSettings
-```
-
-Default priority is CLI arguments when enabled, initializer arguments,
-environment, dotenv, secrets directory, then defaults. Nested environment keys
-override a top-level JSON value for that sub-key. Complex environment values are
-JSON-decoded unless explicitly configured otherwise. Never dump or log secrets.
-Read [settings sources](references/settings.md) before changing names, nesting,
-dotenv behavior, secrets, custom sources, or priority.
-
 ## Version grounding and completion
 
 If code uses v1-shaped `parse_obj`, `.dict()`, `.json()`, `@validator`,
@@ -193,8 +155,7 @@ Run `python scripts/inspect_pydantic.py` from the installed skill directory for
 installed versions, API availability, and signatures. Read [API grounding](references/api-grounding.md).
 
 Do not declare completion until input mode, output type, coercion, extras,
-aliases, invariants, and serialization are tested; settings names and source
-precedence are tested when applicable; secrets cannot leak; validation bypasses
+aliases, invariants, and serialization are tested; sensitive fields cannot leak; validation bypasses
 are absent from untrusted paths; version-supported APIs are used; and project
 checks pass or skipped evidence and consequences are reported. Use [the testing
 matrix](references/testing.md).
@@ -202,12 +163,10 @@ matrix](references/testing.md).
 ## References
 
 - [Validation and serialization recipes](references/recipes-contracts.md)
-- [Settings recipes](references/recipes-settings.md)
 - [Core object model](references/object-model.md)
 - [Intent-to-API map](references/api-map.md)
 - [Validation boundaries](references/validation.md)
 - [Serialization and aliases](references/serialization.md)
-- [Settings sources](references/settings.md)
 - [V1-to-v2 grounding](references/v1-v2.md)
 - [Testing matrix](references/testing.md)
 - [API grounding](references/api-grounding.md)

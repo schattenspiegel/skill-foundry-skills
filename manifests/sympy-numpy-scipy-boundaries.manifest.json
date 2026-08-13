@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "704c61ea0295b2343a5ea1fc0e6b0b8548d9057c76d1ae46cbe0a896169b98e5",
+      "size": 3576
+    },
+    {
+      "path": "references/solver-contracts.md",
+      "sha256": "5697391f5e8b3a95ec7e519dc110669bb59ba26334c2a389b3d9d4f8b353bac3",
+      "size": 598
+    },
+    {
+      "path": "references/translation.md",
+      "sha256": "54d8069a4481798e3588e5a0034656979bc9e96643d15bf7d397af611326c758",
+      "size": 570
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "aae59885de00ccdce5473bbf0f84724252995e56807294e2b7f03e783cda2cb7",
+      "size": 585
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "sympy-numpy-scipy-boundaries",
+  "source_skill_version": "0.1.0"
+}

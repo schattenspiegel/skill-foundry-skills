@@ -1,0 +1,13 @@
+{
+  "description": "Outcome framing, decision, execution, and verification.",
+  "name": "executive-problem-solving",
+  "schema_version": 1,
+  "skills": [
+    {
+      "name": "problem-solving",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    }
+  ]
+}

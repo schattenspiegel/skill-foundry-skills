@@ -2,8 +2,8 @@
   "files": [
     {
       "path": "SKILL.md",
-      "sha256": "c16344d87acbbe9ad07104b5b5dd58e2c4342ca99586f51b019444ca95eb16d7",
-      "size": 7018
+      "sha256": "4158bdc1a55509492afc667a143fb41cf72015bf9a03e80a5d1abf87c66964d6",
+      "size": 7012
     },
     {
       "path": "references/object-model.md",
@@ -21,7 +21,7 @@
       "size": 798
     }
   ],
-  "foundry_version": "0.1.0",
+  "foundry_version": "0.2.0",
   "schema_version": 1,
   "skill": "cvxpy-python",
   "source_skill_version": "0.1.0"

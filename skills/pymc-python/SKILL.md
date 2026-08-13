@@ -85,16 +85,12 @@ def fit_logistic(x: np.ndarray, y: np.ndarray, seed: int):
         x_data = pm.Data("x", x, dims=("observation", "feature"))
         intercept = pm.Normal("intercept", 0, 1.5)
         beta = pm.Normal("beta", 0, 1, dims="feature")
-        logit_p = pm.Deterministic(
-            "logit_p", intercept + x_data @ beta, dims="observation"
-        )
+        logit_p = pm.Deterministic("logit_p", intercept + x_data @ beta, dims="observation")
         pm.Bernoulli("outcome", logit_p=logit_p, observed=y, dims="observation")
 
         prior = pm.sample_prior_predictive(random_seed=seed)
         idata = pm.sample(chains=4, random_seed=seed)
-        pm.sample_posterior_predictive(
-            idata, random_seed=seed, extend_inferencedata=True
-        )
+        pm.sample_posterior_predictive(idata, random_seed=seed, extend_inferencedata=True)
     return model, prior, idata
 ```
 

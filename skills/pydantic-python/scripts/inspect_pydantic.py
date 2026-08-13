@@ -1,4 +1,4 @@
-"""Print installed Pydantic and pydantic-settings API evidence as JSON."""
+"""Print installed Pydantic API evidence as JSON."""
 
 from __future__ import annotations
 
@@ -7,7 +7,6 @@ import inspect
 import json
 import platform
 from collections.abc import Sequence
-from importlib import metadata
 from typing import Any
 
 DEFAULT_APIS = (
@@ -30,10 +29,6 @@ DEFAULT_APIS = (
     "model_serializer",
     "model_validator",
     "validate_call",
-    "settings.BaseSettings",
-    "settings.NoDecode",
-    "settings.SettingsConfigDict",
-    "settings.SettingsError",
 )
 
 
@@ -61,25 +56,15 @@ def _api(root: Any | None, dotted_path: str) -> dict[str, bool | str | None]:
     }
 
 
-def _distribution_version(name: str) -> str | None:
-    try:
-        return metadata.version(name)
-    except metadata.PackageNotFoundError:
-        return None
-
-
 def _parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Inspect installed Pydantic and pydantic-settings APIs.",
+        description="Inspect installed Pydantic APIs.",
     )
     parser.add_argument(
         "apis",
         nargs="*",
         metavar="API",
-        help=(
-            "Optional paths from pydantic; prefix pydantic-settings paths with "
-            "settings. Defaults to the skill compatibility set."
-        ),
+        help="Optional paths from pydantic. Defaults to the compatibility set.",
     )
     return parser
 
@@ -92,24 +77,15 @@ def main(argv: Sequence[str] | None = None) -> int:
         print(json.dumps({"ok": False, "error": "pydantic is not importable"}))
         return 2
 
-    try:
-        import pydantic_settings
-    except ImportError:
-        pydantic_settings = None
-
     requested = tuple(dict.fromkeys(args.apis or DEFAULT_APIS))
     apis: dict[str, dict[str, bool | str | None]] = {}
     for path in requested:
-        if path.startswith("settings."):
-            apis[path] = _api(pydantic_settings, path.removeprefix("settings."))
-        else:
-            apis[path] = _api(pydantic, path)
+        apis[path] = _api(pydantic, path)
 
     evidence = {
         "ok": True,
         "python": platform.python_version(),
         "pydantic": getattr(pydantic, "__version__", "unknown"),
-        "pydantic_settings": _distribution_version("pydantic-settings"),
         "apis": apis,
     }
     print(json.dumps(evidence, sort_keys=True))

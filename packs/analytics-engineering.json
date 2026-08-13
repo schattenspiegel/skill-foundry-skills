@@ -1,0 +1,61 @@
+{
+  "description": "Analytical SQL, dbt, database access, transformation, and validation.",
+  "name": "analytics-engineering",
+  "schema_version": 1,
+  "skills": [
+    {
+      "name": "dbt-sql",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "duckdb-polars-boundaries",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "duckdb-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.2.0"
+    },
+    {
+      "name": "pandas-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "pandera-polars",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "polars-python",
+      "quality_tier": "recommended",
+      "target_evidence": "not_run",
+      "version": "0.5.0"
+    },
+    {
+      "name": "pyarrow-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "sqlalchemy-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "sqlglot-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    }
+  ]
+}

@@ -1,5 +1,60 @@
 # Pydantic validation and serialization recipes
 
+## Recipe `pydantic.subclass-secret-boundary`
+
+**Use when:** A public field may hold a richer runtime subtype containing secrets.
+**Inspect first:** Confirm the annotation-level wire contract and installed subclass serialization behavior.
+**Invariants:** Output is limited to fields declared by the public annotation.
+
+```python
+from pydantic import BaseModel, SecretStr
+
+
+class PublicUser(BaseModel):
+    user_id: str
+
+
+class InternalUser(PublicUser):
+    token: SecretStr
+
+
+class Envelope(BaseModel):
+    user: PublicUser
+
+
+def public_payload(user: InternalUser) -> dict[str, object]:
+    return Envelope(user=user).model_dump(mode="json")
+```
+
+**Do not use when:** Runtime subtype fields intentionally belong in the wire contract; model that union explicitly.
+**Verify:** Assert the token key and raw secret never appear in Python, JSON-compatible, or JSON-text output.
+
+## Recipe `pydantic.validated-construction`
+
+**Use when:** Data crosses a trust boundary before becoming a model.
+**Inspect first:** Determine whether input is Python, JSON, attributes, or an already validated model.
+**Invariants:** Untrusted input always passes through validation; no `model_construct` bypass exists.
+
+```python
+from pydantic import BaseModel, ConfigDict, ValidationError
+
+
+class Job(BaseModel):
+    model_config = ConfigDict(strict=True, extra="forbid")
+    job_id: str
+    attempts: int
+
+
+def decode_job(payload: bytes) -> Job:
+    try:
+        return Job.model_validate_json(payload, strict=True)
+    except ValidationError as exc:
+        raise ValueError("invalid job payload") from exc
+```
+
+**Do not use when:** A private deserializer already proves the exact invariants; document that proof first.
+**Verify:** Test malformed JSON, coercible values, extras, required fields, and a useful error cause.
+
 Load the recipe matching the external boundary. The model contract includes
 input mode, coercion, errors, and output representation—not only field names.
 

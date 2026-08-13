@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "f6f419bb283b73ef5d9f6be83fe87825c27d331bc4534200c36bbaa770db161a",
+      "size": 2226
+    },
+    {
+      "path": "references/contracts.md",
+      "sha256": "20f6d3a68e97249f24e4b7b2ca6727847a6faf5f11a5d3d3f7d2e18e5058c5c1",
+      "size": 355
+    },
+    {
+      "path": "references/ownership.md",
+      "sha256": "654e6dd6bbbd4b6c807a3cac261cd7f28585835c08fa018e38adf9db81e0acfd",
+      "size": 332
+    },
+    {
+      "path": "references/testing.md",
+      "sha256": "98d319054903da3bec6097491daf63c3f8f6e1c54e54740623aeec0523be6753",
+      "size": 336
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "fastapi-pydantic-boundaries",
+  "source_skill_version": "0.1.0"
+}

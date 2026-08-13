@@ -1,0 +1,97 @@
+{
+  "description": "Python language, concurrency, testing, typing, processes, HTTP, and projects.",
+  "name": "core-python",
+  "schema_version": 1,
+  "skills": [
+    {
+      "name": "asyncio-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "datetime-zoneinfo-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "httpx-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "httpx-tenacity-asyncio",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "hypothesis-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "jupyter-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "orjson-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "pydantic-python",
+      "quality_tier": "recommended",
+      "target_evidence": "not_run",
+      "version": "0.5.0"
+    },
+    {
+      "name": "pydantic-settings-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "pytest-hypothesis",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "pytest-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "python-project-tooling",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "python-typing",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "subprocess-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "xxhash-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    }
+  ]
+}

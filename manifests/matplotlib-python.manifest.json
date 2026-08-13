@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "3a91d96c0ef4cc4f7a7919234f6637c3d4fc964a80d8cdbac20c96f40524ab18",
+      "size": 2963
+    },
+    {
+      "path": "references/decisions.md",
+      "sha256": "2521c1cde3d5f0a3236780bfd5073f876c9d62a57ebde70d414b8a2b26d54690",
+      "size": 455
+    },
+    {
+      "path": "references/object-model.md",
+      "sha256": "1aee052a5a4af1d298ed89a38967f7d16c1ba04277aef75da4de0e07f85adfc7",
+      "size": 341
+    },
+    {
+      "path": "references/testing.md",
+      "sha256": "504cfb58b17133691a3a38280948a49cb57151e9c82bd5b57c522fb65e30c8fb",
+      "size": 327
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "matplotlib-python",
+  "source_skill_version": "0.1.0"
+}

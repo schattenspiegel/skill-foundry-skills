@@ -150,9 +150,7 @@ def test_bins_and_order_guard() -> None:
         [1.0, 2.0, 4.0],
         dims="time",
         coords={
-            "time": pd.to_datetime(
-                ["2026-01-01T01:00", "2026-01-01T03:00", "2026-01-03T00:00"]
-            )
+            "time": pd.to_datetime(["2026-01-01T01:00", "2026-01-01T03:00", "2026-01-03T00:00"])
         },
         attrs={"unit": "kg"},
     )

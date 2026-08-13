@@ -1,6 +1,6 @@
 # Third-party notices
 
-Last reviewed: 2026-08-12.
+Last reviewed: 2026-08-13.
 
 ## Scope
 
@@ -28,6 +28,8 @@ vendoring code, documentation, media, models, data, or binary dependencies.
 | DuckDB | [duckdb/duckdb](https://github.com/duckdb/duckdb) | [MIT](https://github.com/duckdb/duckdb/blob/main/LICENSE) |
 | Pydantic | [pydantic/pydantic](https://github.com/pydantic/pydantic) | [MIT](https://github.com/pydantic/pydantic/blob/main/LICENSE) |
 | Pydantic Settings | [pydantic/pydantic-settings](https://github.com/pydantic/pydantic-settings) | [MIT](https://github.com/pydantic/pydantic-settings/blob/main/LICENSE) |
+| openpyxl | [openpyxl](https://openpyxl.readthedocs.io/en/stable/) | [MIT/Expat](https://openpyxl.readthedocs.io/en/stable/) |
+| XlsxWriter | [jmcnamara/XlsxWriter](https://github.com/jmcnamara/XlsxWriter) | [BSD-2-Clause](https://github.com/jmcnamara/XlsxWriter/blob/main/LICENSE.txt) |
 | Pandera | [unionai-oss/pandera](https://github.com/unionai-oss/pandera) | [MIT](https://github.com/unionai-oss/pandera/blob/main/LICENSE.txt) |
 | SQLGlot | [tobymao/sqlglot](https://github.com/tobymao/sqlglot) | [MIT](https://github.com/tobymao/sqlglot/blob/main/LICENSE) |
 | Python standard library and typing | [python/cpython](https://github.com/python/cpython) | [Python Software Foundation License Version 2, with separately noted incorporated components](https://github.com/python/cpython/blob/main/LICENSE) |
@@ -41,6 +43,7 @@ vendoring code, documentation, media, models, data, or binary dependencies.
 | JAX | [jax-ml/jax](https://github.com/jax-ml/jax) | [Apache-2.0](https://github.com/jax-ml/jax/blob/main/LICENSE) |
 | statsmodels | [statsmodels/statsmodels](https://github.com/statsmodels/statsmodels) | [BSD-3-Clause](https://github.com/statsmodels/statsmodels/blob/main/LICENSE.txt) |
 | FastAPI | [fastapi/fastapi](https://github.com/fastapi/fastapi) | [MIT](https://github.com/fastapi/fastapi/blob/master/LICENSE) |
+| SQLAlchemy | [sqlalchemy/sqlalchemy](https://github.com/sqlalchemy/sqlalchemy) | [MIT](https://github.com/sqlalchemy/sqlalchemy/blob/main/LICENSE) |
 | NetworkX | [networkx/networkx](https://github.com/networkx/networkx) | [BSD-3-Clause](https://github.com/networkx/networkx/blob/main/LICENSE.txt) |
 | Structlog | [hynek/structlog](https://github.com/hynek/structlog) | [MIT OR Apache-2.0](https://github.com/hynek/structlog/blob/main/pyproject.toml) |
 | Typer | [fastapi/typer](https://github.com/fastapi/typer) | [MIT](https://github.com/fastapi/typer/blob/master/LICENSE) |
@@ -49,6 +52,7 @@ vendoring code, documentation, media, models, data, or binary dependencies.
 | orjson | [ijl/orjson](https://github.com/ijl/orjson) | [MPL-2.0, Apache-2.0, and MIT by file](https://github.com/ijl/orjson#license) |
 | python-xxhash | [ifduyue/python-xxhash](https://github.com/ifduyue/python-xxhash) | [BSD-2-Clause](https://github.com/ifduyue/python-xxhash/blob/master/LICENSE) |
 | Altair | [vega/altair](https://github.com/vega/altair) | [BSD-3-Clause](https://github.com/vega/altair/blob/main/LICENSE) |
+| Matplotlib | [matplotlib/matplotlib](https://github.com/matplotlib/matplotlib) | [Matplotlib License](https://github.com/matplotlib/matplotlib/blob/main/LICENSE/LICENSE) |
 | Great Tables | [posit-dev/great-tables](https://github.com/posit-dev/great-tables) | [MIT](https://github.com/posit-dev/great-tables/blob/main/LICENSE) |
 | Plotly.py | [plotly/plotly.py](https://github.com/plotly/plotly.py) | [MIT](https://github.com/plotly/plotly.py/blob/main/LICENSE.txt) |
 | Streamlit | [streamlit/streamlit](https://github.com/streamlit/streamlit) | [Apache-2.0](https://github.com/streamlit/streamlit/blob/develop/LICENSE) |
@@ -62,6 +66,12 @@ vendoring code, documentation, media, models, data, or binary dependencies.
 | CVXPY | [cvxpy/cvxpy](https://github.com/cvxpy/cvxpy) | [Apache-2.0](https://github.com/cvxpy/cvxpy/blob/master/LICENSE) |
 | SymPy | [sympy/sympy](https://github.com/sympy/sympy) | [BSD-3-Clause](https://github.com/sympy/sympy/blob/master/LICENSE) |
 | mpmath | [mpmath/mpmath](https://github.com/mpmath/mpmath) | [BSD-3-Clause](https://github.com/mpmath/mpmath/blob/master/LICENSE) |
+| Jupyter nbformat | [jupyter/nbformat](https://github.com/jupyter/nbformat) | [BSD-3-Clause](https://github.com/jupyter/nbformat/blob/main/LICENSE) |
+| Jupyter nbclient | [jupyter/nbclient](https://github.com/jupyter/nbclient) | [BSD-3-Clause](https://github.com/jupyter/nbclient/blob/main/LICENSE) |
+| dbt Core | [dbt-labs/dbt-core](https://github.com/dbt-labs/dbt-core) | [Apache-2.0](https://github.com/dbt-labs/dbt-core/blob/main/LICENSE) |
+| uv | [astral-sh/uv](https://github.com/astral-sh/uv) | [Apache-2.0 OR MIT](https://github.com/astral-sh/uv#license) |
+| Ruff | [astral-sh/ruff](https://github.com/astral-sh/ruff) | [MIT](https://github.com/astral-sh/ruff/blob/main/LICENSE) |
+| Pyright | [microsoft/pyright](https://github.com/microsoft/pyright) | [MIT](https://github.com/microsoft/pyright/blob/main/LICENSE.txt) |
 
 ## Upstream Agent Skill inspiration
 

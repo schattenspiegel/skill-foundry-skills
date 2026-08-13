@@ -2,13 +2,13 @@
   "files": [
     {
       "path": "SKILL.md",
-      "sha256": "317cae3b63bf42435970e0389b8381b2e9502cc10969d78d6cda15d1169286de",
-      "size": 10865
+      "sha256": "6120ae1c157e0abdfda828ce52d4dbe25bbff5f797a667604418a43489d5b354",
+      "size": 9121
     },
     {
       "path": "references/api-grounding.md",
-      "sha256": "c1248d49d0832c9f820b7c48c92fcd6d885abf4c102fa3bd60d6ca1a450c7644",
-      "size": 2031
+      "sha256": "27931c12ba5dbfd1656ee1c14416b571514456a1a230da8778a1cd31110ac30c",
+      "size": 1565
     },
     {
       "path": "references/api-map.md",
@@ -17,28 +17,18 @@
     },
     {
       "path": "references/object-model.md",
-      "sha256": "bdbe19a2f25790d6ded80a5f9a2451d1b2bb200e38f4cc85c7bc8de3bc4b20a8",
-      "size": 5722
+      "sha256": "cab6cfb925a1fe108370679f561f7d50a2e1559d6751224a78071fa88daa8cee",
+      "size": 5024
     },
     {
       "path": "references/recipes-contracts.md",
-      "sha256": "5a552d7f73d21ec00aebe96d234c080f9dfb58e3cd9c8e17838de121c4910c8a",
-      "size": 4461
-    },
-    {
-      "path": "references/recipes-settings.md",
-      "sha256": "f9be78c8e21bff0b6b89a6917a88653036172f96d4bf2dc1aa5821419cfd132e",
-      "size": 4384
+      "sha256": "af450fe333d9c1436c4b58b22b5f7c67dfd805f45b0de45a9040354752b6e7e9",
+      "size": 6261
     },
     {
       "path": "references/serialization.md",
       "sha256": "80384cf32e75432b2b5b40557223cc4fdffbcc6b20c121244181e523685d3827",
       "size": 4330
-    },
-    {
-      "path": "references/settings.md",
-      "sha256": "befeafe5d80b92e4de2315958755c2c7639654e432e51991c5c6e28cb523b575",
-      "size": 5230
     },
     {
       "path": "references/testing.md",
@@ -57,12 +47,12 @@
     },
     {
       "path": "scripts/inspect_pydantic.py",
-      "sha256": "f53a11ae162debbe708acd30e809870c9d467e1fbad5de8676339c6ff524ddf7",
-      "size": 3236
+      "sha256": "b93910e7221908bab3f38c7b90f7ea994881812e2545ef0d9d520f927a15f69e",
+      "size": 2475
     }
   ],
   "foundry_version": "0.2.0",
   "schema_version": 1,
   "skill": "pydantic-python",
-  "source_skill_version": "0.4.0"
+  "source_skill_version": "0.5.0"
 }

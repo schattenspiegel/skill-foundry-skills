@@ -72,9 +72,7 @@ import cvxpy as cp
 import numpy as np
 
 
-def bounded_least_squares(
-    design: np.ndarray, target: np.ndarray
-) -> tuple[np.ndarray, float]:
+def bounded_least_squares(design: np.ndarray, target: np.ndarray) -> tuple[np.ndarray, float]:
     coefficients = cp.Variable(design.shape[1])
     problem = cp.Problem(
         cp.Minimize(cp.sum_squares(design @ coefficients - target)),

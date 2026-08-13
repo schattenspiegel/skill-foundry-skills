@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "741ec980fc1b2590ab744a786f05d6fe1e218175fccc148e48159d59be3df640",
+      "size": 2879
+    },
+    {
+      "path": "references/boundaries.md",
+      "sha256": "07f90ab64f80d7c6a1e1f208d05a81f718ef950f4a3405296cabbf0eaf8ee517",
+      "size": 385
+    },
+    {
+      "path": "references/execution.md",
+      "sha256": "3745570652d1f6b2df51d489e418ce09cf0ef7cdf8070b9dfbeea78d5f283d8b",
+      "size": 347
+    },
+    {
+      "path": "references/state.md",
+      "sha256": "fc8a445e0e30f5a7c0b52874d3917fa50cb13a7dcf57b240dfa3520d0dc6bb04",
+      "size": 321
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "jupyter-python",
+  "source_skill_version": "0.1.0"
+}

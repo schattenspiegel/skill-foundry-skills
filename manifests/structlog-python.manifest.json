@@ -2,8 +2,8 @@
   "files": [
     {
       "path": "SKILL.md",
-      "sha256": "2619b37136e24a4c72bf07f2142b80ce3b9ffd5e6194405a2a70ee4ef15f5b2e",
-      "size": 10570
+      "sha256": "0bd725760a1455f7a7557ec41fccaf6bb62d317c51dab32ec4c84ab0abb2b753",
+      "size": 10554
     },
     {
       "path": "references/api-grounding.md",
@@ -42,8 +42,8 @@
     },
     {
       "path": "references/recipes-integration.md",
-      "sha256": "37c2588daccb612ecd00d44d362d0c3c43fa6514caf14455df315fa510022580",
-      "size": 4658
+      "sha256": "0220556e9db4aa832f05003b9c287e9d22a2ab53334f8d43bdeda4cd41f56166",
+      "size": 4644
     },
     {
       "path": "references/testing.md",

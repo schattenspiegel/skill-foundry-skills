@@ -96,9 +96,7 @@ def fit(x: jnp.ndarray, y: jnp.ndarray, seed: int):
     mcmc = MCMC(NUTS(model), num_warmup=1_000, num_samples=1_000, num_chains=4)
     mcmc.run(run_key, x, y)
     samples = mcmc.get_samples(group_by_chain=True)
-    predictions = Predictive(model, posterior_samples=mcmc.get_samples())(
-        predictive_key, x, None
-    )
+    predictions = Predictive(model, posterior_samples=mcmc.get_samples())(predictive_key, x, None)
     return mcmc, samples, predictions
 ```
 

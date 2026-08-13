@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "9503ec7429393103848f270e28d9f9f4801d8f7428d37a761db1650063a64dd3",
+      "size": 2982
+    },
+    {
+      "path": "references/models.md",
+      "sha256": "ea2ec44a04495a9a7919e1a633ee4ee298d6fc728cee298c4dc7a3d45d40ad41",
+      "size": 418
+    },
+    {
+      "path": "references/stateful.md",
+      "sha256": "750190ea675eab272cdcbaaa66c92cc9aa0971fc5dfe2131f83071681f9c5657",
+      "size": 407
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "26c825b969788e4e36433f7994523b945464365c147d2872031b120811194cb1",
+      "size": 420
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "dbt-sql",
+  "source_skill_version": "0.1.0"
+}

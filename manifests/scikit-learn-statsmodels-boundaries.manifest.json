@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "c0cde08d5ca6212db7c6f8125f4f8322c5f8564f6f2aaa86f8b55d65955850df",
+      "size": 3630
+    },
+    {
+      "path": "references/design-matrices.md",
+      "sha256": "2c960984eae8ffb215d390ba1f2e6794f9ec24f34b2a513260c2672644c55d34",
+      "size": 556
+    },
+    {
+      "path": "references/estimands.md",
+      "sha256": "2501a6a23d88d479106af8bfb56d4d227e24be78611864493223d604f2981054",
+      "size": 494
+    },
+    {
+      "path": "references/validation.md",
+      "sha256": "1cb2e1fdd501b7c6e690f49237d4884359246f9365c8aeec0c7bedf95b9da979",
+      "size": 667
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "scikit-learn-statsmodels-boundaries",
+  "source_skill_version": "0.1.0"
+}

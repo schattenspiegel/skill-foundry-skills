@@ -1,0 +1,85 @@
+{
+  "description": "Dataframes, Arrow, local SQL, files, schemas, workbooks, and interchange.",
+  "name": "local-data",
+  "schema_version": 1,
+  "skills": [
+    {
+      "name": "duckdb-polars-boundaries",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "duckdb-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.2.0"
+    },
+    {
+      "name": "excel-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "jupyter-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "numpy-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.2.0"
+    },
+    {
+      "name": "pandas-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "pandera-polars",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "polars-pyarrow-boundaries",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "polars-python",
+      "quality_tier": "recommended",
+      "target_evidence": "not_run",
+      "version": "0.5.0"
+    },
+    {
+      "name": "pyarrow-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "pydantic-python",
+      "quality_tier": "recommended",
+      "target_evidence": "not_run",
+      "version": "0.5.0"
+    },
+    {
+      "name": "sqlglot-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "name": "xarray-python",
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    }
+  ]
+}

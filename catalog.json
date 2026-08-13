@@ -1,0 +1,797 @@
+{
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skills": [
+    {
+      "kind": "technology",
+      "manifest": "manifests/altair-python.manifest.json",
+      "manifest_sha256": "10043e0b03b131c467f60072dd7e0fafe6cf0124502bac378fb57c2797b53b71",
+      "name": "altair-python",
+      "packs": [
+        "visualization-delivery"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/arviz-python.manifest.json",
+      "manifest_sha256": "94a303aa57f52c62be0fff946907883dda08251e39cdb9f57b96e17c87629e3f",
+      "name": "arviz-python",
+      "packs": [
+        "statistics-ml-bayesian"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/asyncio-python.manifest.json",
+      "manifest_sha256": "b820578fca006f10b8c4b272f3f31ca8256b70d71b3216e1e30ff46d6ce433d1",
+      "name": "asyncio-python",
+      "packs": [
+        "core-python"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/bambi-python.manifest.json",
+      "manifest_sha256": "dacb7f88b6a1b30c1b5cbf63eb0808e27164ad906b80817802c38d2a054143d0",
+      "name": "bambi-python",
+      "packs": [
+        "statistics-ml-bayesian"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/cvxpy-python.manifest.json",
+      "manifest_sha256": "baa261890ea4e9638cb0eb692aa41a55b3e78a0a545be43cbae5017d96caa60e",
+      "name": "cvxpy-python",
+      "packs": [
+        "scientific-python"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/datetime-zoneinfo-python.manifest.json",
+      "manifest_sha256": "9f7413ff746a35bdd8043506bb49a18acb24c8c7bbcdc884787bc7f3ddf0174f",
+      "name": "datetime-zoneinfo-python",
+      "packs": [
+        "core-python"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/dbt-sql.manifest.json",
+      "manifest_sha256": "2ccd5df711bc8d2b9ce2dd0bda18df504f08cfd9e76de07cbdbf1d85b0969f60",
+      "name": "dbt-sql",
+      "packs": [
+        "analytics-engineering"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "integration",
+      "manifest": "manifests/duckdb-polars-boundaries.manifest.json",
+      "manifest_sha256": "226d5ef67cbad51a5ccf3faccad4a4a93d0aa0f88ad1240f326d4e7717e7ae7f",
+      "name": "duckdb-polars-boundaries",
+      "packs": [
+        "local-data",
+        "analytics-engineering"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/duckdb-python.manifest.json",
+      "manifest_sha256": "7b263a2e4484484be9f9c94a9657b21948904b445f5121c93ef72d3d22f8c2d4",
+      "name": "duckdb-python",
+      "packs": [
+        "local-data",
+        "analytics-engineering"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.2.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/excel-python.manifest.json",
+      "manifest_sha256": "0b957cc2420a76d50ae5d74d334f5e1dc58fdb5d4b9eb8da06526ee1bd83cd9b",
+      "name": "excel-python",
+      "packs": [
+        "local-data",
+        "visualization-delivery"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "integration",
+      "manifest": "manifests/fastapi-pydantic-boundaries.manifest.json",
+      "manifest_sha256": "9250fb8da54279cf4bd5280ff2080933d81fbb94050306760aa39990ee540985",
+      "name": "fastapi-pydantic-boundaries",
+      "packs": [
+        "python-applications"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/fastapi-python.manifest.json",
+      "manifest_sha256": "83f1b344e785275a0f792e7770113c1618c79ded0684d972284ffbad6555416f",
+      "name": "fastapi-python",
+      "packs": [
+        "python-applications"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/github-copilot-agent-skills.manifest.json",
+      "manifest_sha256": "b93287b3daef5036861866035284cad891025f277cfe1de1445fde6c09de9ebf",
+      "name": "github-copilot-agent-skills",
+      "packs": [
+        "copilot-customization"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/github-copilot-custom-agents.manifest.json",
+      "manifest_sha256": "f79bf858913ef535f077dbc7ce6ebfa4869dfcf921c6fad392f16af9d971d290",
+      "name": "github-copilot-custom-agents",
+      "packs": [
+        "copilot-customization"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "orchestrator",
+      "manifest": "manifests/github-copilot-customization-architecture.manifest.json",
+      "manifest_sha256": "5a5da755e0998984748f5b885b66667f7ff1163da6e448fd065f8fc41f37b08c",
+      "name": "github-copilot-customization-architecture",
+      "packs": [
+        "copilot-customization"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/github-copilot-hooks.manifest.json",
+      "manifest_sha256": "875f19f5d7c576f7c8465a63b7dc6fecedda073f49264efa871992246f73b4a7",
+      "name": "github-copilot-hooks",
+      "packs": [
+        "copilot-customization"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/github-copilot-instructions.manifest.json",
+      "manifest_sha256": "e717a9beb13d443bd91c18da50cab3e0a54bd35e6c13e219f963549d52d7bda7",
+      "name": "github-copilot-instructions",
+      "packs": [
+        "copilot-customization"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/github-copilot-mcp.manifest.json",
+      "manifest_sha256": "7b5cc5af2b46d7343f2dce0a71846602aa34b9e81c6351bbcddd6e11a71f90d3",
+      "name": "github-copilot-mcp",
+      "packs": [
+        "copilot-customization"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/github-copilot-plugins.manifest.json",
+      "manifest_sha256": "d5958966b785758ec30e2b94146992ecf50a1e2841da161fe00a223b13dec98e",
+      "name": "github-copilot-plugins",
+      "packs": [
+        "copilot-customization"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/github-copilot-prompt-files.manifest.json",
+      "manifest_sha256": "8500d95007cacb56e7674cf09ac4fcc726cf64020724176f0506b7fda10309e8",
+      "name": "github-copilot-prompt-files",
+      "packs": [
+        "copilot-customization"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/great-tables-python.manifest.json",
+      "manifest_sha256": "fa8cf2f3252c0ce5616eae9b931cb39c0bccfc606d37ecf47362cf0238b2c61c",
+      "name": "great-tables-python",
+      "packs": [
+        "visualization-delivery"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/httpx-python.manifest.json",
+      "manifest_sha256": "410882b5d566d2c6b1bbaa0ab7524692489d9d1edfa0b5dd41ba84b64ae6f2e9",
+      "name": "httpx-python",
+      "packs": [
+        "core-python",
+        "python-applications"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "integration",
+      "manifest": "manifests/httpx-tenacity-asyncio.manifest.json",
+      "manifest_sha256": "fe0ba3be036bdcddde786931afb928ea7a011a8972619f25f2a9b516b4ef0623",
+      "name": "httpx-tenacity-asyncio",
+      "packs": [
+        "core-python",
+        "python-applications"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/hypothesis-python.manifest.json",
+      "manifest_sha256": "23c7b4a76f5316d14237f480813efc78729f6df0f212c216c267ec83636f323c",
+      "name": "hypothesis-python",
+      "packs": [
+        "core-python"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/jax-python.manifest.json",
+      "manifest_sha256": "d86103cd4f972dae9b949fa8222053794a01d7ee8d4e358d8b18c292ee42194b",
+      "name": "jax-python",
+      "packs": [
+        "scientific-python",
+        "statistics-ml-bayesian"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/jupyter-python.manifest.json",
+      "manifest_sha256": "7277678fd320e751cdbd9dc93f0a1b1565bf83f1251a335b0dd6d782421b9e18",
+      "name": "jupyter-python",
+      "packs": [
+        "core-python",
+        "local-data"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/matplotlib-python.manifest.json",
+      "manifest_sha256": "17fbac833ff16a653fccbff13ebc2613f6e73119ac4b1ca74ad55e9584d5898e",
+      "name": "matplotlib-python",
+      "packs": [
+        "scientific-python",
+        "visualization-delivery"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/mpmath-python.manifest.json",
+      "manifest_sha256": "6598b12ecd1fac82f21a816fd8f949c501a1e19915d7c47a3405a1a3778be903",
+      "name": "mpmath-python",
+      "packs": [
+        "scientific-python"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/networkx-python.manifest.json",
+      "manifest_sha256": "353d7f9242c45ad43a85b560dbde194ad12d9a894139c055bc56f1006234d83e",
+      "name": "networkx-python",
+      "packs": [
+        "scientific-python"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/numpy-python.manifest.json",
+      "manifest_sha256": "5c1f80485d6a7e97610071797ef188c38974e559b0374db1e66d952fb2023f49",
+      "name": "numpy-python",
+      "packs": [
+        "local-data",
+        "scientific-python"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.2.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/numpyro-python.manifest.json",
+      "manifest_sha256": "901e8a08a5b28074e2c6dc96eb756a0209a35dc2b73a95bd1848508c405e4e1d",
+      "name": "numpyro-python",
+      "packs": [
+        "statistics-ml-bayesian"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/orjson-python.manifest.json",
+      "manifest_sha256": "2d70ba0a5711a95dcb841f2c5658bafc78e9c1c073f5a68ce2e3074e4f26d45a",
+      "name": "orjson-python",
+      "packs": [
+        "core-python",
+        "python-applications"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/pandas-python.manifest.json",
+      "manifest_sha256": "d24f301678a14249c27a92478305b1eb240888d4ed8092b39b48e46544158dd7",
+      "name": "pandas-python",
+      "packs": [
+        "local-data",
+        "analytics-engineering"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/pandera-polars.manifest.json",
+      "manifest_sha256": "abe9251afd5da900efb26e5c185f5849a19fb1320724ae59cd51b67ee196dff3",
+      "name": "pandera-polars",
+      "packs": [
+        "local-data",
+        "analytics-engineering"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/plotly-python.manifest.json",
+      "manifest_sha256": "ccb398ed8cbc79511237884d07e0ba355676ccdb3621acf50daecd7f49c07ae1",
+      "name": "plotly-python",
+      "packs": [
+        "visualization-delivery"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "integration",
+      "manifest": "manifests/polars-pyarrow-boundaries.manifest.json",
+      "manifest_sha256": "a66432c7ab23ae8448dbcc8836cc6bc971c0c9a08339e9aac89527c1570f5407",
+      "name": "polars-pyarrow-boundaries",
+      "packs": [
+        "local-data"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/polars-python.manifest.json",
+      "manifest_sha256": "d06ea762ffa07ca0cd5b7a05478b80f7d3db3eb4398eba340674b6e580acc231",
+      "name": "polars-python",
+      "packs": [
+        "local-data",
+        "analytics-engineering"
+      ],
+      "quality_tier": "recommended",
+      "target_evidence": "not_run",
+      "version": "0.5.0"
+    },
+    {
+      "kind": "orchestrator",
+      "manifest": "manifests/problem-solving.manifest.json",
+      "manifest_sha256": "7b9685b884b05bb1bf2662dabcf5c227f2719de3265fa8558c82bf3296492af1",
+      "name": "problem-solving",
+      "packs": [
+        "executive-problem-solving"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/pyarrow-python.manifest.json",
+      "manifest_sha256": "01d7cd8094cf40020b73395fa7cd8361c6ba0f12cc106bade5432ca75db82d94",
+      "name": "pyarrow-python",
+      "packs": [
+        "local-data",
+        "analytics-engineering"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/pydantic-python.manifest.json",
+      "manifest_sha256": "87cbc2dde016a8df9ed97819201c6e03f362184124a1aa4b14a2213c2642ec2f",
+      "name": "pydantic-python",
+      "packs": [
+        "core-python",
+        "python-applications",
+        "local-data"
+      ],
+      "quality_tier": "recommended",
+      "target_evidence": "not_run",
+      "version": "0.5.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/pydantic-settings-python.manifest.json",
+      "manifest_sha256": "770b8352d383d412feca3a5ffd2ead6baaa9df76403473b00e5ed2e36a5a3fe5",
+      "name": "pydantic-settings-python",
+      "packs": [
+        "core-python",
+        "python-applications"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/pymc-python.manifest.json",
+      "manifest_sha256": "83402bd8cb3c271daf1738932916145d7d6d8e833cfc3fff5b252352d0bd3a4c",
+      "name": "pymc-python",
+      "packs": [
+        "statistics-ml-bayesian"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.2.0"
+    },
+    {
+      "kind": "integration",
+      "manifest": "manifests/pytest-hypothesis.manifest.json",
+      "manifest_sha256": "32c1c6adbeac8e97264dd47dd062e06b8fd004418e7b12a0b443711a199eb6e8",
+      "name": "pytest-hypothesis",
+      "packs": [
+        "core-python"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/pytest-python.manifest.json",
+      "manifest_sha256": "900b9b4765d4ecb3daa49630310f59bd4a070e0033570603a289d518b22dc0a9",
+      "name": "pytest-python",
+      "packs": [
+        "core-python"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/python-project-tooling.manifest.json",
+      "manifest_sha256": "582c097891739b9573de1ce762561a1348ca75ae53dc3f8d00f768a79a074929",
+      "name": "python-project-tooling",
+      "packs": [
+        "core-python",
+        "python-applications"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/python-typing.manifest.json",
+      "manifest_sha256": "b9e3afb1d3d16283e81b4e852870d944e54604070f8e3ce9e38e08b92a2b9157",
+      "name": "python-typing",
+      "packs": [
+        "core-python"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/rich-python.manifest.json",
+      "manifest_sha256": "41d84540b539329285a486d9d0963c99db24ec4658973b5b75e40b2123930728",
+      "name": "rich-python",
+      "packs": [
+        "python-applications"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/rustworkx-python.manifest.json",
+      "manifest_sha256": "47bab118d405f26d1db73665d0fd5ff0884fd3675e3a7a26ea9b196e52ec548c",
+      "name": "rustworkx-python",
+      "packs": [
+        "scientific-python"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/scikit-learn-python.manifest.json",
+      "manifest_sha256": "aa045ea02ff1332cb9b21e7bf314dc7efe77d142a8609c739de25739b35d8262",
+      "name": "scikit-learn-python",
+      "packs": [
+        "statistics-ml-bayesian"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "integration",
+      "manifest": "manifests/scikit-learn-statsmodels-boundaries.manifest.json",
+      "manifest_sha256": "0a89f64b3a2a8c3d62b93ef7ec0c28bd4692bb8c68dc3b7e9a0b5ac402a68834",
+      "name": "scikit-learn-statsmodels-boundaries",
+      "packs": [
+        "statistics-ml-bayesian"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/scipy-python.manifest.json",
+      "manifest_sha256": "a64173b5edb0945b971a7443a42183085b049b48e03180a34a69653a6c25c920",
+      "name": "scipy-python",
+      "packs": [
+        "scientific-python",
+        "statistics-ml-bayesian"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/simpy-python.manifest.json",
+      "manifest_sha256": "63e2ce17045047cb76b4bfabee5c3328c6a50b5ad09cf2ade76cf5c48184a455",
+      "name": "simpy-python",
+      "packs": [
+        "scientific-python"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/sqlalchemy-python.manifest.json",
+      "manifest_sha256": "0577ffe39b06bd3afc50c87ce8342ab3ff6e22ee81590e612a0b6834283e245e",
+      "name": "sqlalchemy-python",
+      "packs": [
+        "python-applications",
+        "analytics-engineering"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/sqlglot-python.manifest.json",
+      "manifest_sha256": "a4fc055ad3f0efb878c87e4f58237a449d3ef9c32c8c529343965b2af04b22b4",
+      "name": "sqlglot-python",
+      "packs": [
+        "local-data",
+        "analytics-engineering"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/statsmodels-python.manifest.json",
+      "manifest_sha256": "b7847a7e268822ba220a894d343f63e135b982d43567473d62fedc6656c4657a",
+      "name": "statsmodels-python",
+      "packs": [
+        "statistics-ml-bayesian"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/streamlit-python.manifest.json",
+      "manifest_sha256": "7e97bab43467211920de4f2be7cceb9b447cd6cdde0cc70a7fbce428a1cdc7ab",
+      "name": "streamlit-python",
+      "packs": [
+        "visualization-delivery"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/structlog-python.manifest.json",
+      "manifest_sha256": "f877bdc85d816b2e223f8e39b81e6afe05aedd22c759de834239bf6f376d32d1",
+      "name": "structlog-python",
+      "packs": [
+        "python-applications"
+      ],
+      "quality_tier": "recommended",
+      "target_evidence": "not_run",
+      "version": "0.4.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/subprocess-python.manifest.json",
+      "manifest_sha256": "1a507666f4a06afa8a99ce33e085c1c8ab523982ba2f181b4ffe5de7ba138c0a",
+      "name": "subprocess-python",
+      "packs": [
+        "core-python"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "integration",
+      "manifest": "manifests/sympy-numpy-scipy-boundaries.manifest.json",
+      "manifest_sha256": "bafd34e11e43376d409e68e362e6938cd11ef36254a261d4a8747e36b0cf09cc",
+      "name": "sympy-numpy-scipy-boundaries",
+      "packs": [
+        "scientific-python"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/sympy-python.manifest.json",
+      "manifest_sha256": "2fab2bc29e6cd024b80098c153b4eacb0a5576c117660b87957ad6bfda515c23",
+      "name": "sympy-python",
+      "packs": [
+        "scientific-python"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.2.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/tenacity-python.manifest.json",
+      "manifest_sha256": "c7bd62ab718222ec4f1a88a65a38516d080c7758ff3b35e0af9783b53996ba5e",
+      "name": "tenacity-python",
+      "packs": [
+        "python-applications"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/typer-python.manifest.json",
+      "manifest_sha256": "b2cc0f42093a1db2d7463ce846c743fbe3b1b6563ed89f75c4f6d6d309101700",
+      "name": "typer-python",
+      "packs": [
+        "python-applications"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/xarray-python.manifest.json",
+      "manifest_sha256": "b60519bbc4b90d6042076fd05fc6ebddcfdb1b052cfed0bd0fb9fb2d4e695326",
+      "name": "xarray-python",
+      "packs": [
+        "local-data",
+        "scientific-python"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    },
+    {
+      "kind": "technology",
+      "manifest": "manifests/xxhash-python.manifest.json",
+      "manifest_sha256": "e49a0da598828475ca6b787694ea9e9b5a7ff6cae0cd478361d8c594b79233bf",
+      "name": "xxhash-python",
+      "packs": [
+        "core-python",
+        "python-applications"
+      ],
+      "quality_tier": "candidate",
+      "target_evidence": "not_run",
+      "version": "0.1.0"
+    }
+  ]
+}

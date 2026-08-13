@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "b86cf4ada5fa2e15b71fdca1e714016a8fdc5200b9c41169de5e72ef88c7502c",
+      "size": 2943
+    },
+    {
+      "path": "references/ownership.md",
+      "sha256": "2ba7a1d3fcf0413f2e0696ce2224ca0803810bc0a076d6818ee6f257b6239ea7",
+      "size": 340
+    },
+    {
+      "path": "references/schema.md",
+      "sha256": "0fe9cbffe05cbb9ce131b88f931b1b3798b80ed77e912dbf0d28d278ae35ee31",
+      "size": 333
+    },
+    {
+      "path": "references/verification.md",
+      "sha256": "8d535423316d86e029aa26b6b958311ea276a567dbc806c1068c3e6fb0934eeb",
+      "size": 323
+    }
+  ],
+  "foundry_version": "0.2.0",
+  "schema_version": 1,
+  "skill": "duckdb-polars-boundaries",
+  "source_skill_version": "0.1.0"
+}

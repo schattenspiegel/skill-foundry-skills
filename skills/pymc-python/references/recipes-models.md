@@ -14,9 +14,7 @@ import numpy as np
 import pymc as pm
 
 
-def build_hierarchy(
-    y: np.ndarray, group_idx: np.ndarray, group_names: list[str]
-) -> pm.Model:
+def build_hierarchy(y: np.ndarray, group_idx: np.ndarray, group_names: list[str]) -> pm.Model:
     if y.ndim != 1 or group_idx.shape != y.shape:
         raise ValueError("y and group_idx must be aligned vectors")
     if group_idx.size and (group_idx.min() < 0 or group_idx.max() >= len(group_names)):
@@ -78,9 +76,7 @@ import numpy as np
 import pymc as pm
 
 
-def build_zero_inflated(
-    x: np.ndarray, counts: np.ndarray, exposure: np.ndarray
-) -> pm.Model:
+def build_zero_inflated(x: np.ndarray, counts: np.ndarray, exposure: np.ndarray) -> pm.Model:
     if counts.ndim != 1 or x.shape != counts.shape or exposure.shape != counts.shape:
         raise ValueError("x, counts, and exposure must be aligned vectors")
     if np.any(counts < 0) or not np.issubdtype(counts.dtype, np.integer):

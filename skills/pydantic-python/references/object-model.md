@@ -1,7 +1,7 @@
 # Pydantic core object model
 
 Load this reference when choosing what Pydantic object to build or when
-validation, model state, serialization, and settings are being conflated.
+validation, model state, and serialization are being conflated.
 
 ## Schema compilation and execution
 
@@ -32,7 +32,6 @@ and output modes can make the serialized shape differ from input.
 | `TypeAdapter[T]` | Reusable compiled validator, serializer, and JSON Schema generator for `T` | Exactly `T`, not an invented wrapper model |
 | `RootModel[T]` | Named Pydantic model around one root value | Root-model instance with `.root` |
 | `ValidationError` | Structured collection of data-validation failures | `.errors()` records with locations/types/context |
-| `BaseSettings` subclass | Pydantic model plus ordered input-source assembly | Settings instance |
 
 ## Choose the runtime output first
 
@@ -41,7 +40,6 @@ and output modes can make the serialized shape differ from input.
 | Named typed domain/boundary object | `BaseModel` | A dict whose validation is forgotten after return |
 | `list[Item]`, union, primitive, `TypedDict`, dataclass, or protocol payload | `TypeAdapter[T]` | A one-field model created solely to access validation |
 | Public single-root type with model methods/schema identity | `RootModel[T]` | `RootModel` when a plain `TypeAdapter` output is enough |
-| App configuration assembled from external sources | `BaseSettings` | A `BaseModel` that manually calls `os.getenv` in validators |
 | Trusted internal state with static typing only | dataclass/`TypedDict` | Runtime validation with no boundary |
 
 Construct and reuse a `TypeAdapter`; creating it repeatedly rebuilds validation
@@ -55,14 +53,13 @@ make the field optional unless a default is supplied:
 
 ```python
 class Patch(BaseModel):
-    display_name: str | None          # required, but None is valid
-    nickname: str | None = None       # may be omitted
+    display_name: str | None  # required, but None is valid
+    nickname: str | None = None  # may be omitted
 ```
 
-Use `Field(default_factory=...)` for generated values. Default validation is a
-policy: ordinary model defaults are not validated by default, while
-`BaseSettings` defaults are validated by default in current settings docs.
-Enable/disable intentionally and test invalid defaults.
+Use `Field(default_factory=...)` for generated values. Model defaults are not
+validated by default. Enable default validation intentionally when invalid
+defaults must be rejected and test that behavior.
 
 ## Input modes
 
@@ -102,18 +99,6 @@ containers.
 `dict(model)` iterates fields without recursively dumping nested models. Do not
 use it as a wire serializer.
 
-## Settings source graph
-
-`BaseSettings()` first asks configured sources for candidate values, merges them
-by priority, then validates the resulting mapping through the normal Pydantic
-schema:
-
-```text
-CLI? / init / env / dotenv / secrets / defaults
-                     -> merged candidate mapping
-                     -> Pydantic validation
-                     -> Settings instance
-```
-
-Source resolution errors (missing file policy, invalid JSON in a complex env
-value) and model validation errors are distinct failure classes. Test both.
+Configuration-source assembly belongs to the `pydantic-settings-python` skill.
+This skill owns only the validation and serialization behavior of the resulting
+Pydantic schema.

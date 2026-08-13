@@ -91,9 +91,7 @@ import structlog
 
 def configure_logging(*, development: bool = False) -> None:
     renderer = (
-        structlog.dev.ConsoleRenderer()
-        if development
-        else structlog.processors.JSONRenderer()
+        structlog.dev.ConsoleRenderer() if development else structlog.processors.JSONRenderer()
     )
     structlog.configure(
         processors=[

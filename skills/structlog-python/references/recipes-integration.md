@@ -113,9 +113,7 @@ def capture_action(action) -> list[dict[str, object]]:
 
 
 def test_completed_event() -> None:
-    entries = capture_action(
-        lambda log: log.info("job_completed", job_id="job-1", rows=3)
-    )
+    entries = capture_action(lambda log: log.info("job_completed", job_id="job-1", rows=3))
     assert entries == [
         {"event": "job_completed", "job_id": "job-1", "rows": 3, "log_level": "info"}
     ]

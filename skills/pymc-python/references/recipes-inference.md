@@ -41,9 +41,7 @@ import arviz as az
 def diagnostic_report(idata) -> dict[str, object]:
     stats = idata["sample_stats"] if "sample_stats" in idata.children else None
     divergences = (
-        int(stats["diverging"].sum())
-        if stats is not None and "diverging" in stats
-        else None
+        int(stats["diverging"].sum()) if stats is not None and "diverging" in stats else None
     )
     summary = az.summary(idata, kind="diagnostics", round_to="none")
     required = ("r_hat", "ess_bulk", "ess_tail", "mcse_mean")
@@ -65,9 +63,7 @@ import numpy as np
 import pymc as pm
 
 
-def predict_new(
-    model: pm.Model, idata, x_new: np.ndarray, labels: list[str], seed: int
-):
+def predict_new(model: pm.Model, idata, x_new: np.ndarray, labels: list[str], seed: int):
     if x_new.ndim != 2 or x_new.shape[0] != len(labels):
         raise ValueError("new rows and observation labels must align")
     with model:
